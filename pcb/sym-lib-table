@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "WM8978-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/WM8978-easyedapro.kicad_sym") (options "") (descr ""))
+)

@@ -1,0 +1,23 @@
+# Local history and generated build output
+pcb/.history/
+code/build/
+
+# KiCad local state, locks, and backups
+*.lck
+*.kicad_prl
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Compiler output
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
+*~

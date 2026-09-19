@@ -1,0 +1,9 @@
+halt
+loadfile build/wm8978_usb_audio.hex
+reset
+go
+sleep 5000
+halt
+mem32 0x2001FF00 19
+go
+exit
