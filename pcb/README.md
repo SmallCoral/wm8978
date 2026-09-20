@@ -1,48 +1,54 @@
-# USB 声卡硬件重构说明
+# WM8978 USB 声卡硬件说明
 
-`WM8978.kicad_sch` 已直接在原工程中重构；没有创建第二份原理图。旧 PCB
-及其历史副本已经删除，下一版 PCB 必须从当前原理图重新建立。
+主原理图为 `WM8978.kicad_sch`，功能已按信号流拆成 4 个子页：
 
-## 保留的功能
+- `01_usb_power.kicad_sch`：USB Type-C、CC 下拉、USB ESD/串联电阻和 3.3 V 电源
+- `02_stm32.kicad_sch`：STM32F407、8 MHz HSE、复位、BOOT0、SWD 和 MCU 去耦
+- `03_wm8978.kicad_sch`：WM8978、两线控制接口、I2S、VMID 和 codec 去耦
+- `04_audio_output.kicad_sch`：3.5 mm 耳机输出和 BTL 扬声器接口
 
-- STM32F407VET6、8 MHz HSE、SWD、复位和 BOOT0 下拉
-- USB-C USB 2.0 Device：A6/B6(D+) -> PA12，A7/B7(D-) -> PA11
-- D+/D- 各 22R 串联电阻和低电容 PESD5V0U1BA ESD 保护
-- AMS1117-3.3 电源
-- WM8978 数字播放、3.5 mm 立体声耳机输出
-- WM8978 内置 BTL 扬声器输出，JST-PH 2.0 mm 两针接口
+## 当前功能链路
 
-## 已删除的功能
+- USB-C A6/B6（D+）经 D1、R53 接 STM32 PA12。
+- USB-C A7/B7（D-）经 D2、R54 接 STM32 PA11。
+- CC1、CC2 分别用 5.1 kΩ 下拉，接口工作在 USB 设备/UFP 模式。
+- STM32 I2S2 使用 PC6/MCLK、PB13/BCLK、PB12/LRCLK、PC3/DACDAT。
+- WM8978 控制接口使用 PD6/SCLK、PD7/SDIN，CSB 接地，MODE 用 10 kΩ 下拉，
+  因而采用两线控制模式。
+- WM8978 ROUT1/LOUT1 经 220 µF 隔直后接 3.5 mm 耳机座。
+- ROUT2/LOUT2 作为 BTL 差分扬声器输出；SPK_P、SPK_N 都不能接地。
 
-- 32.768 kHz LSE
-- 24.576 MHz 有源音频振荡器（MCLK 改由 STM32 PC6 输出）
-- 麦克风和模拟输入网络
-- AT24C02 EEPROM、调试 LED、启动选择开关
-- TDA2822 外置功放及其大体积阻容网络
+## 与旧版单页原理图相比
 
-## 封装规则
+保留了 USB 播放、耳机输出、WM8978 内置扬声器驱动、SWD 和复位功能；删除了
+麦克风/模拟采集、LSE、外置 24.576 MHz 音频振荡器、EEPROM、状态 LED、启动
+选择开关和 TDA2822 外置功放。新版本由 STM32 作为 I2S 时钟主机，旧版固件中
+“WM8978 + 24.576 MHz 振荡器作为时钟主机”的初始化逻辑不能直接沿用。
 
-- 普通电阻、电容全部使用 KiCad 标准 0603 公制封装。
-- 10 uF 电源储能和 4.7 uF MCU 总储能保留 0805，避免 0603 在 3.3/5 V
-  直流偏压下有效容量过低。
-- C86/C87 是耳机隔直用 220 uF，0603 无法满足容量，使用常见
-  `CP_Elec_6.3x5.8` 贴片电解封装。
-- MCU、WM8978、晶体、SWD、复位键和扬声器接口均已切换到 KiCad
-  标准常用封装；USB-C 和 PJ-3136-B 耳机座因机械尺寸必须与实物匹配，
-  继续使用工程专用封装。
+## 供电与器件约束
 
-## 设计注意事项
+- USB VBUS 直接给 WM8978 SPKVDD，3.3 V 给 STM32 和 WM8978 的 AVDD/DCVDD/DBVDD。
+- 3.3 V 稳压器指定为与 AMS1117 引脚兼容的 `TLV1117LV33DCYR`，可稳定驱动现有
+  陶瓷输入/输出电容；不要在不核对输出电容 ESR 要求的情况下换回泛化 AMS1117。
+- C83（VMID）使用 4.7 µF/0805；C77、C78、C89、C93 使用 10 µF/0805。
+- C88、C90、C91 分别作为 WM8978 三个 3.3 V 电源脚的 100 nF 就地去耦，C89
+  提供 codec 本地 10 µF 储能；C92/C93 给 SPKVDD 去耦。
+- C86、C87 为 220 µF/6.3 V 贴片电解，正极朝向 WM8978 输出端。
+- X3 为 8 MHz、CL=12 pF 晶体，C68/C69 为 18 pF；正式选定料号后仍需按实际
+  杂散电容复核负载电容。
 
-- WM8978 的 BCLK/ADCDAT 导入标注错误已修正：PB13 -> BCLK，ADCDAT 不用。
-- WM8978 CSB 固定接地，MODE 以 10 k 下拉；控制接口为两线制。
-- SPKVDD 使用 USB 5 V，AVDD/DCVDD/DBVDD 使用 3.3 V。
-- SPK2 是 BTL 差分输出，两根扬声器线都不能接地。
-- X3 标称 CL=12 pF，C68/C69 采用 18 pF；正式选定晶体料号后应按晶体
-  CL 和实际杂散电容复核。
-- 新 PCB 上 D1/D2 必须紧贴 USB-C，R53/R54 建议靠近 MCU USB 引脚；
-  晶体和负载电容必须紧贴 MCU，WM8978 去耦必须紧贴对应电源脚。
+## PCB 实现要点
 
-KiCad 10 ERC 的错误级检查结果为 0。完整检查仍会报告 EasyEDA 导入符号
-的引脚类型及 Type-C 自定义符号的非标准网格警告，关键网络已通过网表核对。
+- D1/D2 紧贴 USB-C；R53/R54 靠近 STM32 PA12/PA11。
+- 晶体、C68、C69 紧贴 MCU，且晶振回路下方不要走高速信号。
+- 每个 100 nF 去耦必须紧贴对应电源脚，先到电容再到电源面，并使用短地过孔。
+- WM8978 模拟输出远离 USB 和 I2S 时钟；耳机回流不要穿过 USB/MCU 数字回流区。
+- SPK_P/SPK_N 按差分对成组走线，不允许任一路接地。
+- USB 供电下扬声器满功率会显著增加 VBUS 电流，固件应限制初始音量并软启动。
 
-旧实物板的 USB 飞线维修说明仍保留在 `../code/USB_REWORK.md`，仅用于旧板。
+## 校验结果
+
+使用 KiCad 10.0.6 对层次原理图执行完整 ERC，错误和警告均为 0；同时导出网表
+核对了 USB、I2S、控制总线、耳机和 BTL 扬声器的端到端连接。ERC 不能代替实物
+验证，首板仍应依次检查 5 V、3.3 V、HSE、MCLK/BCLK/LRCLK、USB 枚举和静音
+状态下的输出直流电压。
