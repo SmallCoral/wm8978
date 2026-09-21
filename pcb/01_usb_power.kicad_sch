@@ -12,1330 +12,1388 @@
 	)
 	(lib_symbols
 		(symbol "Device:D_TVS"
-					(pin_numbers
-						(hide yes)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(pin_names
-						(offset 1.016)
-						(hide yes)
-					)
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" "D"
-						(at 0 2.54 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Value" "D_TVS"
-						(at 0 -2.54 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" "Bidirectional transient-voltage-suppression diode"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "ki_keywords" "diode TVS thyrector"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "D_TVS_0_1"
-						(polyline
-							(pts
-								(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-							)
-							(stroke
-								(width 0.254)
-								(type default)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-							)
-							(stroke
-								(width 0.254)
-								(type default)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 1.27 0) (xy -1.27 0)
-							)
-							(stroke
-								(width 0)
-								(type default)
-							)
-							(fill
-								(type none)
-							)
-						)
-					)
-					(symbol "D_TVS_1_1"
-						(pin passive line
-							(at -3.81 0 0)
-							(length 2.54)
-							(name "A1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 3.81 0 180)
-							(length 2.54)
-							(name "A2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8978-easyedapro:0603WAF5101T5E"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" "R"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" "5.1kΩ"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:R0603"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Manufacturer Part" "0603WAF5101T5E"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Manufacturer" "UNI-ROYAL(厚声)"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier Part" "C23186"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier" "LCSC"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "0603WAF5101T5E_1_0"
-						(rectangle
-							(start -2.54 1.016)
-							(end 2.54 -1.016)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin passive line
-							(at -5.08 0 0)
-							(length 2.54)
-							(name "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 5.08 0 180)
-							(length 2.54)
-							(name "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" "5.1kΩ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:R0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "0603WAF5101T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C23186"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "5.1kΩ ±1% 100mW 厚膜电阻"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0603WAF5101T5E_1_0"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8978-easyedapro:AMS1117"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:SOT_223"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "AMS1117_1_0"
-						(rectangle
-							(start -7.62 3.81)
-							(end 7.62 -3.81)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin power_in line
-							(at 0 -6.35 90)
-							(length 2.54)
-							(name "GND"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin power_out line
-							(at 10.16 2.54 180)
-							(length 2.54)
-							(name "VOUT"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin power_in line
-							(at -10.16 0 0)
-							(length 2.54)
-							(name "VIN"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "3"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 10.16 0 180)
-							(length 2.54)
-							(name "TAB"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "4"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:SOT_223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AMS1117_1_0"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "TAB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8978-easyedapro:CapAcitance"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" "100nF"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:C0805"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "CapAcitance_1_0"
-						(polyline
-							(pts
-								(xy -0.508 0) (xy -2.54 0)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy -0.508 -2.032) (xy -0.508 2.032)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 0.508 2.032) (xy 0.508 -2.032)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 2.54 0) (xy 0.508 0)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin passive line
-							(at -5.08 0 0)
-							(length 2.54)
-							(name "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 5.08 0 180)
-							(length 2.54)
-							(name "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" "100nF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:C0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CapAcitance_1_0"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8978-easyedapro:USB_TYPE-C-16P"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:USB_TYPE-C-16P"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "USB_TYPE-C-16P_1_0"
-						(rectangle
-							(start -10.668 16.764)
-							(end 12.192 -16.256)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(circle
-							(center -8.128 14.224)
-							(radius 0.381)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin passive line
-							(at -3.048 -18.796 90)
-							(length 2.54)
-							(name "EP"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -0.508 -18.796 90)
-							(length 2.54)
-							(name "EP"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 2.032 -18.796 90)
-							(length 2.54)
-							(name "EP"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "3"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 4.572 -18.796 90)
-							(length 2.54)
-							(name "EP"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "4"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin power_out line
-							(at -13.208 11.684 0)
-							(length 2.54)
-							(name "GND"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin power_out line
-							(at -13.208 6.604 0)
-							(length 2.54)
-							(name "VBUS"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A4"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -13.208 4.064 0)
-							(length 2.54)
-							(name "CC1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A5"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -13.208 1.524 0)
-							(length 2.54)
-							(name "DP1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A6"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -13.208 -1.016 0)
-							(length 2.54)
-							(name "DN1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A7"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -13.208 -3.556 0)
-							(length 2.54)
-							(name "SBUS1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A8"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -13.208 -6.096 0)
-							(length 2.54)
-							(name "VBUS"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A9"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -13.208 -11.176 0)
-							(length 2.54)
-							(name "GND"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "A12"
-								(effects
-									(font
-										(size 0.8466 0.8466)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 -11.176 180)
-							(length 2.54)
-							(name "GND"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 -6.096 180)
-							(length 2.54)
-							(name "VBUS"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B4"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 -3.556 180)
-							(length 2.54)
-							(name "CC2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B5"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 -1.016 180)
-							(length 2.54)
-							(name "DP2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B6"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 1.524 180)
-							(length 2.54)
-							(name "DN2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B7"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 4.064 180)
-							(length 2.54)
-							(name "SBUS2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B8"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 6.604 180)
-							(length 2.54)
-							(name "VBUS"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B9"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 14.732 11.684 180)
-							(length 2.54)
-							(name "GND"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-							(number "B12"
-								(effects
-									(font
-										(size 0.8466 0.8466)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:USB_TYPE-C-16P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_TYPE-C-16P_1_0"
+				(rectangle
+					(start -10.668 16.764)
+					(end 12.192 -16.256)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.128 14.224)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.048 -18.796 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -0.508 -18.796 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.032 -18.796 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 4.572 -18.796 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -13.208 11.684 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -13.208 6.604 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.208 4.064 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.208 1.524 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.208 -1.016 0)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.208 -3.556 0)
+					(length 2.54)
+					(name "SBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.208 -6.096 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.208 -11.176 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 0.8466 0.8466)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 -11.176 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 -6.096 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 -3.556 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 -1.016 180)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 1.524 180)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 4.064 180)
+					(length 2.54)
+					(name "SBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 6.604 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 14.732 11.684 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 0.8466 0.8466)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8978-easyedapro:电阻"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" "10K"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:R0805"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "电阻_1_0"
-						(rectangle
-							(start -2.54 1.016)
-							(end 2.54 -1.016)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin passive line
-							(at -5.08 0 0)
-							(length 2.54)
-							(name "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 5.08 0 180)
-							(length 2.54)
-							(name "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
-	)
-	(label "GND"
-		(at 46.99 99.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
 			)
-			(justify left)
-		)
-		(uuid "18b44cf9-c04a-58ac-a7be-680fe3f98f36")
-	)
-	(label "GND"
-		(at 49.53 99.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Value" "10K"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left)
-		)
-		(uuid "b0a8a0b6-d5de-5b4f-a19b-1e2bf382e68f")
-	)
-	(label "GND"
-		(at 52.07 99.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Footprint" "WM8978-easyedapro:R0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left)
-		)
-		(uuid "73582b23-8986-56ae-8f5f-5025999fcd97")
-	)
-	(label "GND"
-		(at 54.61 99.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify left)
-		)
-		(uuid "30aeacaa-d06d-5c3e-8f17-9c9175724077")
-	)
-	(label "GND"
-		(at 36.83 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
-			(justify right)
-		)
-		(uuid "909bef08-7c2a-509d-b6f0-8731a07fb92e")
-	)
-	(label "VBUS_5V"
-		(at 36.83 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+			(symbol "电阻_1_0"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
 			)
-			(justify right)
+			(embedded_fonts no)
 		)
-		(uuid "40c97fb5-4825-50a9-b857-20468e521997")
 	)
-	(label "CC1"
-		(at 36.83 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(no_connect
+		(at 36.83 83.82)
+		(uuid "685a6fac-b8fa-53d4-a8b4-430a89d07bf5")
+	)
+	(no_connect
+		(at 71.12 76.2)
+		(uuid "be4ba66c-c7a4-57b1-b59c-0da667fc1635")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 64.77 83.82)
 		)
-		(uuid "6b735458-0974-51b9-8b49-9e22d4da84ef")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dd1104-cbf5-4bfd-a55b-c6322e0675fa")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 64.77 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a160767-8839-4c4e-b937-2ac9f98c1f3f")
+	)
+	(wire
+		(pts
+			(xy 195.58 132.08) (xy 195.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18637f2a-15c8-427e-af01-0884e3567adc")
+	)
+	(wire
+		(pts
+			(xy 33.02 73.66) (xy 36.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d68a42-443b-42bf-808b-5ed389110b5e")
+	)
+	(wire
+		(pts
+			(xy 260.35 132.08) (xy 260.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cd9bfa-fb12-492d-a774-b721b23a712a")
+	)
+	(wire
+		(pts
+			(xy 33.02 68.58) (xy 36.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28725933-0527-47ec-8239-a1879e309c7d")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e30816d-f017-43b8-af12-31fb3479c988")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 64.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401dd0e2-0f40-4b75-8323-444944d25a0c")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 64.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ee8c5d-8ba5-4f6c-a774-3fd7a38036f1")
+	)
+	(wire
+		(pts
+			(xy 33.02 76.2) (xy 36.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdeef22-9cf0-42b2-bc1a-242dfa7bc378")
+	)
+	(wire
+		(pts
+			(xy 33.02 91.44) (xy 36.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61cd3ea5-302c-45b1-9515-dd92307f409f")
+	)
+	(wire
+		(pts
+			(xy 214.63 132.08) (xy 214.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e2b403-a516-48e9-95dc-e868000799ab")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 64.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2b07d4-66c5-487c-99aa-872c181a3fb6")
+	)
+	(wire
+		(pts
+			(xy 71.12 73.66) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d874fe4-97c5-4d48-91ff-087b99efab01")
+	)
+	(wire
+		(pts
+			(xy 33.02 78.74) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7219575c-7a32-4f07-9187-7bfbd7089731")
+	)
+	(wire
+		(pts
+			(xy 33.02 86.36) (xy 36.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743bcee9-5a48-47ff-8dfb-0c4ce31e401f")
+	)
+	(wire
+		(pts
+			(xy 33.02 81.28) (xy 36.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf5be64-8fc8-4133-a4ba-994f1d41dea5")
+	)
+	(wire
+		(pts
+			(xy 240.03 132.08) (xy 240.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e081d49b-89aa-4023-8599-fb9bd55d13d2")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14b92c9-efa7-4270-92e6-a18aa5a3c864")
 	)
 	(label "USB_DP_CONN"
-		(at 36.83 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc46aebd-293c-5c77-a83f-c2a36c3889d4")
-	)
-	(label "USB_DM_CONN"
-		(at 36.83 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28242c34-a198-5bd2-9a26-6839ffc493b1")
-	)
-	(label "VBUS_5V"
-		(at 36.83 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1753ec2d-e8aa-5a6c-99af-309b32284359")
-	)
-	(label "GND"
-		(at 36.83 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "13b61229-4ff0-5e02-9a2f-cbdcf891ebcb")
-	)
-	(label "GND"
-		(at 64.77 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c65c6cbe-87f2-550a-88ed-9ad60b6acc48")
-	)
-	(label "VBUS_5V"
-		(at 64.77 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5dac3d2c-3cf5-53e0-aeec-7cb1c37f8e7e")
-	)
-	(label "CC2"
-		(at 64.77 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0913b0e-9614-5bba-b012-9563988a52d1")
-	)
-	(label "USB_DP_CONN"
-		(at 64.77 81.28 0)
+		(at 71.12 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1345,27 +1403,97 @@
 		(uuid "01d752fd-b9b6-514c-96f4-42124cb73880")
 	)
 	(label "USB_DM_CONN"
-		(at 64.77 78.74 0)
+		(at 160.02 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "dcd90ac5-22c5-510c-8bf0-74c819664ded")
+		(uuid "078426d1-3355-5a1a-987c-04f19f72b341")
 	)
 	(label "VBUS_5V"
-		(at 64.77 73.66 0)
+		(at 195.58 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1109495d-e584-5b57-a2d3-ac4a4864953b")
+	)
+	(label "GND"
+		(at 33.02 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13b61229-4ff0-5e02-9a2f-cbdcf891ebcb")
+	)
+	(label "VBUS_5V"
+		(at 33.02 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1753ec2d-e8aa-5a6c-99af-309b32284359")
+	)
+	(label "GND"
+		(at 46.99 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c0c213de-512e-5bf9-82b3-7afdcc7a5428")
+		(uuid "18b44cf9-c04a-58ac-a7be-680fe3f98f36")
 	)
 	(label "GND"
-		(at 64.77 68.58 0)
+		(at 110.49 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1afeaef7-84ca-56b6-8c1d-dcc6bd9e38c5")
+	)
+	(label "USB_DM_CONN"
+		(at 33.02 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28242c34-a198-5bd2-9a26-6839ffc493b1")
+	)
+	(label "GND"
+		(at 54.61 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30aeacaa-d06d-5c3e-8f17-9c9175724077")
+	)
+	(label "GND"
+		(at 240.03 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30c4f947-f4c0-5b99-8a04-78f2f533a10b")
+	)
+	(label "GND"
+		(at 71.12 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1373,6 +1501,56 @@
 			(justify left)
 		)
 		(uuid "32406f50-f0e4-5d33-9d37-3ea9d100940b")
+	)
+	(label "VBUS_5V"
+		(at 33.02 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40c97fb5-4825-50a9-b857-20468e521997")
+	)
+	(label "CC2"
+		(at 100.33 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57e91459-8a4a-5672-a659-3bef9f3f8e00")
+	)
+	(label "VBUS_5V"
+		(at 71.12 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5dac3d2c-3cf5-53e0-aeec-7cb1c37f8e7e")
+	)
+	(label "CC1"
+		(at 33.02 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b735458-0974-51b9-8b49-9e22d4da84ef")
+	)
+	(label "GND"
+		(at 52.07 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73582b23-8986-56ae-8f5f-5025999fcd97")
 	)
 	(label "CC1"
 		(at 100.33 52.07 180)
@@ -1385,54 +1563,14 @@
 		(uuid "7cf5030f-05cb-53d3-9d07-5ce542fb90d1")
 	)
 	(label "GND"
-		(at 110.49 52.07 0)
+		(at 260.35 114.3 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1afeaef7-84ca-56b6-8c1d-dcc6bd9e38c5")
-	)
-	(label "CC2"
-		(at 100.33 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57e91459-8a4a-5672-a659-3bef9f3f8e00")
-	)
-	(label "GND"
-		(at 110.49 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb018d65-a1e9-5979-9a83-eeb898491f41")
-	)
-	(label "USB_DP_CONN"
-		(at 101.6 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fb3647a1-339a-5f43-bb07-4e9c00731a7c")
-	)
-	(label "GND"
-		(at 109.22 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ddefafa6-7996-54f4-817c-5aa34876148c")
+		(uuid "8eb95f4b-6e57-5514-9459-74924f503487")
 	)
 	(label "USB_DM_CONN"
 		(at 101.6 110.49 180)
@@ -1445,6 +1583,36 @@
 		(uuid "9091a937-9c5e-5021-8812-73444ae6086b")
 	)
 	(label "GND"
+		(at 33.02 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "909bef08-7c2a-509d-b6f0-8731a07fb92e")
+	)
+	(label "3V3"
+		(at 234.95 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a14d9f3-7972-5d01-9bbe-9abdabd18486")
+	)
+	(label "GND"
+		(at 195.58 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e912988-79eb-5050-aeff-b98b5759f386")
+	)
+	(label "GND"
 		(at 109.22 110.49 0)
 		(effects
 			(font
@@ -1453,6 +1621,46 @@
 			(justify left)
 		)
 		(uuid "a97a1656-8558-53f0-9ff6-4ca0ce9b3522")
+	)
+	(label "GND"
+		(at 49.53 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0a8a0b6-d5de-5b4f-a19b-1e2bf382e68f")
+	)
+	(label "VBUS_5V"
+		(at 214.63 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b43b66a4-a9f4-5011-b98b-65be8f1f055a")
+	)
+	(label "USB_DP_CONN"
+		(at 33.02 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc46aebd-293c-5c77-a83f-c2a36c3889d4")
+	)
+	(label "VBUS_5V"
+		(at 71.12 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0c213de-512e-5bf9-82b3-7afdcc7a5428")
 	)
 	(label "USB_DP_CONN"
 		(at 160.02 91.44 0)
@@ -1464,26 +1672,95 @@
 		)
 		(uuid "c590eb07-ae0e-58ef-8fe6-35eeb060d63c")
 	)
-	(hierarchical_label "USB_DP"
-		(shape bidirectional)
-		(at 149.86 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39c0ef26-8bee-550c-9d2d-59a0969e6cfc")
-	)
-	(label "USB_DM_CONN"
-		(at 160.02 110.49 0)
+	(label "GND"
+		(at 71.12 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "078426d1-3355-5a1a-987c-04f19f72b341")
+		(uuid "c65c6cbe-87f2-550a-88ed-9ad60b6acc48")
+	)
+	(label "GND"
+		(at 110.49 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb018d65-a1e9-5979-9a83-eeb898491f41")
+	)
+	(label "3V3"
+		(at 240.03 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc102b5c-a5e4-5200-80e8-0799c5f1d29f")
+	)
+	(label "GND"
+		(at 214.63 114.3 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ed81fc-a10c-58b8-b664-4009edba86ef")
+	)
+	(label "USB_DM_CONN"
+		(at 71.12 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcd90ac5-22c5-510c-8bf0-74c819664ded")
+	)
+	(label "GND"
+		(at 109.22 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddefafa6-7996-54f4-817c-5aa34876148c")
+	)
+	(label "CC2"
+		(at 71.12 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0913b0e-9614-5bba-b012-9563988a52d1")
+	)
+	(label "3V3"
+		(at 260.35 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f25010a8-3b18-5d72-b606-1fdf9379ad5e")
+	)
+	(label "USB_DP_CONN"
+		(at 101.6 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb3647a1-339a-5f43-bb07-4e9c00731a7c")
 	)
 	(hierarchical_label "USB_DM"
 		(shape bidirectional)
@@ -1496,16 +1773,16 @@
 		)
 		(uuid "13537a30-1928-5ce0-a29a-08c5cf081bbc")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "USB_DP"
 		(shape bidirectional)
-		(at 224.79 81.28 270)
+		(at 149.86 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "d89b5dbd-fdf4-53fc-9b06-39592f275150")
+		(uuid "39c0ef26-8bee-550c-9d2d-59a0969e6cfc")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
@@ -1518,6 +1795,17 @@
 		)
 		(uuid "501531c7-0e0c-5743-aa48-99eaf232988f")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 224.79 81.28 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d89b5dbd-fdf4-53fc-9b06-39592f275150")
+	)
 	(hierarchical_label "VBUS_5V"
 		(shape output)
 		(at 214.63 74.93 180)
@@ -1529,1131 +1817,1032 @@
 		)
 		(uuid "d96c6b96-81db-5625-8017-39d5dba27a5b")
 	)
-	(label "3V3"
-		(at 234.95 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "WM8978-easyedapro:电阻")
+		(at 154.94 110.49 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ab87381-97de-4a5d-b985-2a18d83723b6")
+		(property "Reference" "R54"
+			(at 147.32 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
 			)
-			(justify left)
 		)
-		(uuid "9a14d9f3-7972-5d01-9bbe-9abdabd18486")
-	)
-	(label "VBUS_5V"
-		(at 195.58 124.46 270)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "22R"
+			(at 153.67 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
 			)
-			(justify left)
 		)
-		(uuid "1109495d-e584-5b57-a2d3-ac4a4864953b")
-	)
-	(label "GND"
-		(at 195.58 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.94 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left)
 		)
-		(uuid "9e912988-79eb-5050-aeff-b98b5759f386")
-	)
-	(label "VBUS_5V"
-		(at 214.63 124.46 270)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Datasheet" ""
+			(at 154.94 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left)
 		)
-		(uuid "b43b66a4-a9f4-5011-b98b-65be8f1f055a")
-	)
-	(label "GND"
-		(at 214.63 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Description" ""
+			(at 154.94 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify left)
 		)
-		(uuid "d7ed81fc-a10c-58b8-b664-4009edba86ef")
-	)
-	(label "3V3"
-		(at 240.03 124.46 270)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(pin "1"
+			(uuid "7903c4d0-774e-4529-99f5-db8af7ca1768")
+		)
+		(pin "2"
+			(uuid "9750be4d-e798-4ea3-abed-81d792057d38")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "R54")
+					(unit 1)
+				)
 			)
-			(justify left)
 		)
-		(uuid "cc102b5c-a5e4-5200-80e8-0799c5f1d29f")
-	)
-	(label "GND"
-		(at 240.03 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30c4f947-f4c0-5b99-8a04-78f2f533a10b")
-	)
-	(label "3V3"
-		(at 260.35 124.46 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f25010a8-3b18-5d72-b606-1fdf9379ad5e")
-	)
-	(label "GND"
-		(at 260.35 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8eb95f4b-6e57-5514-9459-74924f503487")
-	)
-	(no_connect
-		(at 36.83 83.82)
-		(uuid "685a6fac-b8fa-53d4-a8b4-430a89d07bf5")
-	)
-	(no_connect
-		(at 64.77 76.2)
-		(uuid "be4ba66c-c7a4-57b1-b59c-0da667fc1635")
 	)
 	(symbol
-			(lib_id "WM8978-easyedapro:USB_TYPE-C-16P")
-			(at 50.038 80.264 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "9c0f6793-4e0d-42d7-9a53-85c10a7e29eb")
-			(property "Reference" "USB2"
-				(at 46.99 63.5 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
+		(lib_id "WM8978-easyedapro:AMS1117")
+		(at 224.79 74.93 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "268a8c2c-3c67-4a99-a9e5-229c291effd2")
+		(property "Reference" "U15"
+			(at 223.52 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
-			)
-			(property "Value" "USB-C USB2 DEVICE"
-				(at 50.038 80.264 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "WM8978-import-fps:USB_TYPE-C-16P"
-				(at 50.038 80.264 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 50.038 80.264 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 50.038 80.264 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "6950bd6b-3c6c-4fff-bcd4-6a593ca1dc13")
-			)
-			(pin "2"
-				(uuid "9a618235-064c-4b64-957f-7b9d9157aa2c")
-			)
-			(pin "3"
-				(uuid "bb397a12-ab61-4cf3-abdd-2bd3adea6e10")
-			)
-			(pin "4"
-				(uuid "9e68016e-cd95-4c3c-87b9-88c5038097b7")
-			)
-			(pin "A1"
-				(uuid "50f2a288-b12d-49ac-90bd-7e57e665ddef")
-			)
-			(pin "A4"
-				(uuid "163cb4ec-1b1b-4e67-93cf-0b9483822ff5")
-			)
-			(pin "A5"
-				(uuid "256bc8e6-9579-4492-91c8-526b7c51c67d")
-			)
-			(pin "A6"
-				(uuid "430384b4-b335-4fcf-84b0-1e8d542b9342")
-			)
-			(pin "A7"
-				(uuid "2785c284-6b49-4b61-bb03-d26f298259a1")
-			)
-			(pin "A8"
-				(uuid "a21951c4-b03a-4e54-964c-bf3a15a5fb5a")
-			)
-			(pin "A9"
-				(uuid "50b5f794-df9c-4207-bf4c-fb5c43cd4353")
-			)
-			(pin "A12"
-				(uuid "b2356529-b16b-42fa-b916-2c09d07b6a12")
-			)
-			(pin "B1"
-				(uuid "be3276a8-1043-42be-9e7f-9ca3e25ffe66")
-			)
-			(pin "B4"
-				(uuid "829d0a36-f104-4d35-87de-d3d5dce2a20c")
-			)
-			(pin "B5"
-				(uuid "b381966c-449b-4c0d-a0de-afdd22d14c0c")
-			)
-			(pin "B6"
-				(uuid "7d765cb1-5a19-43dd-a84e-ccfcac5d494a")
-			)
-			(pin "B7"
-				(uuid "ec9814b0-4ba0-49d4-8778-bdd2bef24cb0")
-			)
-			(pin "B8"
-				(uuid "30f1988e-be6c-4a34-97cf-2b07c4b5b203")
-			)
-			(pin "B9"
-				(uuid "482124c0-666e-49be-9594-a9afb746f5d4")
-			)
-			(pin "B12"
-				(uuid "6f26db71-7f1a-4dd9-886b-b3f4ad82fa10")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "USB2")
-						(unit 1)
-					)
-				)
+				(justify left bottom)
 			)
 		)
-	(symbol
-			(lib_id "WM8978-easyedapro:0603WAF5101T5E")
-			(at 105.41 52.07 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "8b7f5c4b-dd25-4f84-9a62-97b618fa5182")
-			(property "Reference" "R65"
-				(at 101.6 50.8 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
+		(property "Value" "TLV1117LV33DCYR"
+			(at 217.17 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
-			)
-			(property "Value" "5.1k"
-				(at 107.95 50.8 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 105.41 52.07 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-				(at 105.41 52.07 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 105.41 52.07 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "4f4cc87e-2da1-4ab6-9411-82073ef7ba5d")
-			)
-			(pin "2"
-				(uuid "ede881a8-bae9-4608-ac29-0dbf0f80a798")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "R65")
-						(unit 1)
-					)
-				)
+				(justify left bottom)
 			)
 		)
-	(symbol
-			(lib_id "WM8978-easyedapro:0603WAF5101T5E")
-			(at 105.41 67.31 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "460ef09e-dbf3-4691-b86f-051a1d37af0b")
-			(property "Reference" "R66"
-				(at 101.6 66.04 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "5.1k"
-				(at 107.95 66.04 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 105.41 67.31 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-				(at 105.41 67.31 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 105.41 67.31 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "a9bfdf67-d216-4d2f-94eb-1624bf2611b7")
-			)
-			(pin "2"
-				(uuid "89a804f0-ba1f-47d1-85a8-537aff8451a7")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "R66")
-						(unit 1)
-					)
-				)
-			)
-		)
-	(symbol
-			(lib_id "Device:D_TVS")
-			(at 105.41 91.44 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "81277de6-8e99-4ce5-850b-b444e5278a5c")
-			(property "Reference" "D1"
-				(at 105.41 88.9 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD5V0U1BA"
-				(at 105.41 93.98 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 105.41 91.44 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0U1BA.pdf"
-				(at 105.41 91.44 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low-capacitance bidirectional USB ESD protection"
-				(at 105.41 91.44 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "a062aad4-0234-44e5-a828-2beceff2fc38")
-			)
-			(pin "2"
-				(uuid "b99c5de8-41a3-490c-86a6-065ec4b18c0f")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "D1")
-						(unit 1)
-					)
-				)
-			)
-		)
-	(symbol
-			(lib_id "Device:D_TVS")
-			(at 105.41 110.49 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "aabb47fd-6c0e-4188-ac3c-c5fa7211adcf")
-			(property "Reference" "D2"
-				(at 105.41 107.95 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD5V0U1BA"
-				(at 105.41 113.03 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 105.41 110.49 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0U1BA.pdf"
-				(at 105.41 110.49 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low-capacitance bidirectional USB ESD protection"
-				(at 105.41 110.49 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "7ca9513b-4259-42ce-90c9-bf3949cc5663")
-			)
-			(pin "2"
-				(uuid "ba0fb088-9eb8-48b4-871a-b7c37afd4e0e")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "D2")
-						(unit 1)
-					)
-				)
-			)
-		)
-	(symbol
-			(lib_id "WM8978-easyedapro:电阻")
-			(at 154.94 91.44 180)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "3b0a8b42-25dc-4ffa-aedb-86cbdf6137b4")
-			(property "Reference" "R53"
-				(at 147.32 91.44 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
-				)
-			)
-			(property "Value" "22R"
-				(at 153.67 92.71 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 154.94 91.44 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 154.94 91.44 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 154.94 91.44 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "e3379234-7618-43bb-9905-43dfb505542c")
-			)
-			(pin "2"
-				(uuid "8d604a96-7c2c-4c2b-880c-faa790a99f0b")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "R53")
-						(unit 1)
-					)
-				)
-			)
-		)
-	(symbol
-			(lib_id "WM8978-easyedapro:电阻")
-			(at 154.94 110.49 180)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "1ab87381-97de-4a5d-b985-2a18d83723b6")
-			(property "Reference" "R54"
-				(at 147.32 110.49 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
-				)
-			)
-			(property "Value" "22R"
-				(at 153.67 111.76 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 154.94 110.49 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 154.94 110.49 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 154.94 110.49 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "7903c4d0-774e-4529-99f5-db8af7ca1768")
-			)
-			(pin "2"
-				(uuid "9750be4d-e798-4ea3-abed-81d792057d38")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "R54")
-						(unit 1)
-					)
-				)
-			)
-		)
-	(symbol
-			(lib_id "WM8978-easyedapro:AMS1117")
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 224.79 74.93 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "268a8c2c-3c67-4a99-a9e5-229c291effd2")
-			(property "Reference" "U15"
-				(at 223.52 71.12 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TLV1117LV33DCYR"
-				(at 217.17 85.09 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-				(at 224.79 74.93 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 224.79 74.93 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 224.79 74.93 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "4fbb4702-d599-4ae8-a363-9e1eb3284f31")
-			)
-			(pin "2"
-				(uuid "7a91ca21-8827-4502-b604-d54bd72de35a")
-			)
-			(pin "3"
-				(uuid "1b14c944-fe88-496d-9f6e-8ff0ac7b4d30")
-			)
-			(pin "4"
-				(uuid "a7091b16-d8f5-4d0b-a358-6a4cfc1a830d")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "U15")
-						(unit 1)
-					)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Datasheet" ""
+			(at 224.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fbb4702-d599-4ae8-a363-9e1eb3284f31")
+		)
+		(pin "2"
+			(uuid "7a91ca21-8827-4502-b604-d54bd72de35a")
+		)
+		(pin "3"
+			(uuid "1b14c944-fe88-496d-9f6e-8ff0ac7b4d30")
+		)
+		(pin "4"
+			(uuid "a7091b16-d8f5-4d0b-a358-6a4cfc1a830d")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
-			(lib_id "WM8978-easyedapro:CapAcitance")
-			(at 195.58 119.38 90)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "d5fb7edf-182f-4f0a-8924-7cb61d6c9264")
-			(property "Reference" "C75"
-				(at 196.85 118.11 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		(lib_id "WM8978-easyedapro:CapAcitance")
+		(at 214.63 119.38 90)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "372a3697-baf2-4ade-9d44-aaafb0f17109")
+		(property "Reference" "C77"
+			(at 215.9 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Value" "100nF"
-				(at 195.58 123.19 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		)
+		(property "Value" "10uF"
+			(at 214.63 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 195.58 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 195.58 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 195.58 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "2"
-				(uuid "3797bded-b81e-4e22-be3f-b1f2b8fccfcd")
-			)
-			(pin "1"
-				(uuid "0d83539c-7871-4309-88e8-37ea731d8de2")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "C75")
-						(unit 1)
-					)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 214.63 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Datasheet" ""
+			(at 214.63 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "148bcdee-2314-42e6-b9a0-826b325c4aed")
+		)
+		(pin "2"
+			(uuid "8e9ff1ef-a6dc-45ab-a8ff-ab8c7fcd1215")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
-			(lib_id "WM8978-easyedapro:CapAcitance")
-			(at 214.63 119.38 90)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "372a3697-baf2-4ade-9d44-aaafb0f17109")
-			(property "Reference" "C77"
-				(at 215.9 118.11 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		(lib_id "WM8978-easyedapro:电阻")
+		(at 154.94 91.44 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b0a8b42-25dc-4ffa-aedb-86cbdf6137b4")
+		(property "Reference" "R53"
+			(at 147.32 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Value" "10uF"
-				(at 214.63 123.19 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		)
+		(property "Value" "22R"
+			(at 153.67 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-				(at 214.63 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 214.63 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 214.63 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "148bcdee-2314-42e6-b9a0-826b325c4aed")
-			)
-			(pin "2"
-				(uuid "8e9ff1ef-a6dc-45ab-a8ff-ab8c7fcd1215")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "C77")
-						(unit 1)
-					)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.94 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Datasheet" ""
+			(at 154.94 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3379234-7618-43bb-9905-43dfb505542c")
+		)
+		(pin "2"
+			(uuid "8d604a96-7c2c-4c2b-880c-faa790a99f0b")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
-			(lib_id "WM8978-easyedapro:CapAcitance")
-			(at 240.03 119.38 90)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "fcdc5415-e21c-4308-ac34-61d14c54d7e0")
-			(property "Reference" "C76"
-				(at 241.3 118.11 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		(lib_id "WM8978-easyedapro:0603WAF5101T5E")
+		(at 105.41 67.31 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "460ef09e-dbf3-4691-b86f-051a1d37af0b")
+		(property "Reference" "R66"
+			(at 101.6 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
-			(property "Value" "100nF"
-				(at 241.3 123.19 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		)
+		(property "Value" "5.1k"
+			(at 107.95 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify left bottom)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 240.03 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 240.03 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 240.03 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "625a8f1f-3d54-4f60-b1b4-fd86691f9d17")
-			)
-			(pin "2"
-				(uuid "d7d88f24-4fa2-4dc0-9fab-19ba14b882cf")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "C76")
-						(unit 1)
-					)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 105.41 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9bfdf67-d216-4d2f-94eb-1624bf2611b7")
+		)
+		(pin "2"
+			(uuid "89a804f0-ba1f-47d1-85a8-537aff8451a7")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
-			(lib_id "WM8978-easyedapro:CapAcitance")
-			(at 260.35 119.38 90)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "7c8d4d82-999f-4c6a-9dca-61c4a5a3f320")
-			(property "Reference" "C78"
-				(at 261.62 118.11 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		(lib_id "WM8978-easyedapro:CapAcitance")
+		(at 260.35 119.38 90)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c8d4d82-999f-4c6a-9dca-61c4a5a3f320")
+		(property "Reference" "C78"
+			(at 261.62 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Value" "10uF"
-				(at 260.35 123.19 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		)
+		(property "Value" "10uF"
+			(at 260.35 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-				(at 260.35 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 260.35 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 260.35 119.38 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "87fa1bac-833c-47f9-873d-58fd49d5a667")
-			)
-			(pin "2"
-				(uuid "f0de31f0-8f40-4837-869e-74ee30e3a17e")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
-						(reference "C78")
-						(unit 1)
-					)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 260.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
-	(embedded_fonts no)
+		(property "Datasheet" ""
+			(at 260.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87fa1bac-833c-47f9-873d-58fd49d5a667")
+		)
+		(pin "2"
+			(uuid "f0de31f0-8f40-4837-869e-74ee30e3a17e")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 105.41 91.44 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81277de6-8e99-4ce5-850b-b444e5278a5c")
+		(property "Reference" "D1"
+			(at 105.41 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V0U1BA"
+			(at 105.41 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0U1BA.pdf"
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-capacitance bidirectional USB ESD protection"
+			(at 105.41 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a062aad4-0234-44e5-a828-2beceff2fc38")
+		)
+		(pin "2"
+			(uuid "b99c5de8-41a3-490c-86a6-065ec4b18c0f")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:0603WAF5101T5E")
+		(at 105.41 52.07 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b7f5c4b-dd25-4f84-9a62-97b618fa5182")
+		(property "Reference" "R65"
+			(at 101.6 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 107.95 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 105.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 105.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f4cc87e-2da1-4ab6-9411-82073ef7ba5d")
+		)
+		(pin "2"
+			(uuid "ede881a8-bae9-4608-ac29-0dbf0f80a798")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:USB_TYPE-C-16P")
+		(at 50.038 80.264 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c0f6793-4e0d-42d7-9a53-85c10a7e29eb")
+		(property "Reference" "USB2"
+			(at 46.99 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "USB-C USB2 DEVICE"
+			(at 50.038 80.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WM8978-import-fps:USB_TYPE-C-16P"
+			(at 50.038 80.264 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.038 80.264 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.038 80.264 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6950bd6b-3c6c-4fff-bcd4-6a593ca1dc13")
+		)
+		(pin "2"
+			(uuid "9a618235-064c-4b64-957f-7b9d9157aa2c")
+		)
+		(pin "3"
+			(uuid "bb397a12-ab61-4cf3-abdd-2bd3adea6e10")
+		)
+		(pin "4"
+			(uuid "9e68016e-cd95-4c3c-87b9-88c5038097b7")
+		)
+		(pin "A1"
+			(uuid "50f2a288-b12d-49ac-90bd-7e57e665ddef")
+		)
+		(pin "A4"
+			(uuid "163cb4ec-1b1b-4e67-93cf-0b9483822ff5")
+		)
+		(pin "A5"
+			(uuid "256bc8e6-9579-4492-91c8-526b7c51c67d")
+		)
+		(pin "A6"
+			(uuid "430384b4-b335-4fcf-84b0-1e8d542b9342")
+		)
+		(pin "A7"
+			(uuid "2785c284-6b49-4b61-bb03-d26f298259a1")
+		)
+		(pin "A8"
+			(uuid "a21951c4-b03a-4e54-964c-bf3a15a5fb5a")
+		)
+		(pin "A9"
+			(uuid "50b5f794-df9c-4207-bf4c-fb5c43cd4353")
+		)
+		(pin "A12"
+			(uuid "b2356529-b16b-42fa-b916-2c09d07b6a12")
+		)
+		(pin "B1"
+			(uuid "be3276a8-1043-42be-9e7f-9ca3e25ffe66")
+		)
+		(pin "B4"
+			(uuid "829d0a36-f104-4d35-87de-d3d5dce2a20c")
+		)
+		(pin "B5"
+			(uuid "b381966c-449b-4c0d-a0de-afdd22d14c0c")
+		)
+		(pin "B6"
+			(uuid "7d765cb1-5a19-43dd-a84e-ccfcac5d494a")
+		)
+		(pin "B7"
+			(uuid "ec9814b0-4ba0-49d4-8778-bdd2bef24cb0")
+		)
+		(pin "B8"
+			(uuid "30f1988e-be6c-4a34-97cf-2b07c4b5b203")
+		)
+		(pin "B9"
+			(uuid "482124c0-666e-49be-9594-a9afb746f5d4")
+		)
+		(pin "B12"
+			(uuid "6f26db71-7f1a-4dd9-886b-b3f4ad82fa10")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "USB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 105.41 110.49 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aabb47fd-6c0e-4188-ac3c-c5fa7211adcf")
+		(property "Reference" "D2"
+			(at 105.41 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V0U1BA"
+			(at 105.41 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0U1BA.pdf"
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-capacitance bidirectional USB ESD protection"
+			(at 105.41 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ca9513b-4259-42ce-90c9-bf3949cc5663")
+		)
+		(pin "2"
+			(uuid "ba0fb088-9eb8-48b4-871a-b7c37afd4e0e")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:CapAcitance")
+		(at 195.58 119.38 90)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5fb7edf-182f-4f0a-8924-7cb61d6c9264")
+		(property "Reference" "C75"
+			(at 196.85 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100nF"
+			(at 195.58 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3797bded-b81e-4e22-be3f-b1f2b8fccfcd")
+		)
+		(pin "1"
+			(uuid "0d83539c-7871-4309-88e8-37ea731d8de2")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:CapAcitance")
+		(at 240.03 119.38 90)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcdc5415-e21c-4308-ac34-61d14c54d7e0")
+		(property "Reference" "C76"
+			(at 241.3 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "100nF"
+			(at 241.3 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 240.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "625a8f1f-3d54-4f60-b1b4-fd86691f9d17")
+		)
+		(pin "2"
+			(uuid "d7d88f24-4fa2-4dc0-9fab-19ba14b882cf")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/f5892751-19ca-5356-8818-1b28b94d061d"
+					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

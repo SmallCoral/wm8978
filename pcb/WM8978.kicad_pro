@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "HIER-1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -668,6 +668,22 @@
     [
       "e66edf14-e80e-43d6-93c5-ecec06481566",
       "Schematic2"
+    ],
+    [
+      "f5892751-19ca-5356-8818-1b28b94d061d",
+      "USB Type-C and Power"
+    ],
+    [
+      "88186c52-6401-5059-b09f-da2dbb1fa056",
+      "STM32F407 Core, Clock and Debug"
+    ],
+    [
+      "1de0fd92-823c-5938-83bd-4bbc4728ca39",
+      "WM8978 Codec"
+    ],
+    [
+      "6ce28669-25af-5aad-9271-f475e5fa5adb",
+      "Headphone and Speaker Outputs"
     ]
   ],
   "text_variables": {},

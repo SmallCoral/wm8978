@@ -12,752 +12,744 @@
 	)
 	(lib_symbols
 		(symbol "WM8978-easyedapro:220UF/16V_C9900022878"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" "C"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Manufacturer Part" "220uF/16V"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier Part" "C9900022878"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier" "LCSC"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "LCSC Part Name" "220uF/16V"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "220UF/16V_C9900022878_1_0"
-						(polyline
-							(pts
-								(xy -2.54 0) (xy -0.508 0)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy -2.286 1.27) (xy -1.27 1.27)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy -1.778 1.778) (xy -1.778 0.762)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy -0.508 1.778) (xy -0.508 -1.778)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 0.508 0) (xy 2.54 0)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(arc
-							(start 1.1176 -1.7526)
-							(mid 0.4064 0)
-							(end 1.143 1.778)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin passive line
-							(at -5.08 0 0)
-							(length 2.54)
-							(name "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 5.08 0 180)
-							(length 2.54)
-							(name "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "220uF/16V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C9900022878"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "220uF/16V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "220UF/16V_C9900022878_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy -1.778 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.778) (xy -0.508 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.1176 -1.7526)
+					(mid 0.4064 0)
+					(end 1.143 1.778)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8978-easyedapro:FS-2308"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" "SPK"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SPK"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:BEEP-TH_BD23.2-P9.20-D1.0"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200113/C482322_D09CD61BAFBB8D4AD64070E01BFD18FF.pdf"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Manufacturer Part" "FS-2308"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Manufacturer" "FUET(福声科技)"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier Part" "C482322"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier" "LCSC"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "LCSC Part Name" "喇叭23MM-8.0H 8Ω1W 插针"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "FS-2308_1_0"
-						(polyline
-							(pts
-								(xy 1.27 0.508) (xy 1.27 -3.048)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 1.27 0.508) (xy 2.54 0.508) (xy 2.54 0.508) (xy 5.08 2.54) (xy 5.08 2.54) (xy 5.08 -5.08)
-								(xy 5.08 -5.08) (xy 2.54 -3.048) (xy 2.54 -3.048) (xy 1.27 -3.048)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 1.778 -0.254) (xy 2.794 -0.254)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 2.032 -2.286) (xy 2.54 -2.286)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 2.286 0.254) (xy 2.286 -0.762)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin passive line
-							(at -2.54 0 0)
-							(length 3.81)
-							(name "1"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "1"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at -2.54 -2.54 0)
-							(length 3.81)
-							(name "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:BEEP-TH_BD23.2-P9.20-D1.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200113/C482322_D09CD61BAFBB8D4AD64070E01BFD18FF.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "FS-2308"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FUET(福声科技)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C482322"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "喇叭23MM-8.0H 8Ω1W 插针"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FS-2308_1_0"
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 2.54 0.508) (xy 2.54 0.508) (xy 5.08 2.54) (xy 5.08 2.54) (xy 5.08 -5.08)
+						(xy 5.08 -5.08) (xy 2.54 -3.048) (xy 2.54 -3.048) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 2.794 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -2.286) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0.254) (xy 2.286 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WM8978-easyedapro:PJ-3136-B"
-					(exclude_from_sim no)
-					(in_bom yes)
-					(on_board yes)
-					(in_pos_files yes)
-					(duplicate_pin_numbers_are_jumpers no)
-					(property "Reference" "CN"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(property "Value" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Footprint" "WM8978-easyedapro:AUDIO-TH_PJ-3136-B"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231101/FB45AABFD04C0979FDEE8A028D0B6336.pdf"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Description" ""
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Manufacturer Part" "PJ-3136-B"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Manufacturer" "XKB Connectivity(中国星坤)"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier Part" "C381131"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "Supplier" "LCSC"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(property "LCSC Part Name" "3.5mm耳机座"
-						(at 0 0 0)
-						(show_name no)
-						(do_not_autoplace no)
-						(hide yes)
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(symbol "PJ-3136-B_1_0"
-						(rectangle
-							(start -6.604 3.048)
-							(end -5.588 0.762)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 0 5.08) (xy -6.096 5.08) (xy -6.096 5.08) (xy -6.096 3.048)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 0 2.54) (xy -4.064 2.54) (xy -4.064 2.54) (xy -4.318 1.778) (xy -4.318 1.778) (xy -4.572 2.54)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(polyline
-							(pts
-								(xy 0 0) (xy -3.302 0) (xy -3.302 0) (xy -3.556 0.762) (xy -3.556 0.762) (xy -3.81 0)
-							)
-							(stroke
-								(width 0.254)
-								(type solid)
-							)
-							(fill
-								(type none)
-							)
-						)
-						(pin passive line
-							(at 5.08 5.08 180)
-							(length 5.08)
-							(name "2"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "2"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 5.08 2.54 180)
-							(length 5.08)
-							(name "3"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "3"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-						(pin passive line
-							(at 5.08 0 180)
-							(length 5.08)
-							(name "4"
-								(effects
-									(font
-										(size 0.0254 0.0254)
-									)
-								)
-							)
-							(number "4"
-								(effects
-									(font
-										(size 1.27 1.27)
-									)
-								)
-							)
-						)
-					)
-					(embedded_fonts no)
 				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:AUDIO-TH_PJ-3136-B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231101/FB45AABFD04C0979FDEE8A028D0B6336.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "PJ-3136-B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XKB Connectivity(中国星坤)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C381131"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "3.5mm耳机座"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-3136-B_1_0"
+				(rectangle
+					(start -6.604 3.048)
+					(end -5.588 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -6.096 5.08) (xy -6.096 5.08) (xy -6.096 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -4.064 2.54) (xy -4.064 2.54) (xy -4.318 1.778) (xy -4.318 1.778) (xy -4.572 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -3.302 0) (xy -3.302 0) (xy -3.556 0.762) (xy -3.556 0.762) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(wire
-		(pts (xy 85.09 69.85) (xy 74.93 69.85))
-		(stroke (width 0) (type default))
-		(uuid "5440f03c-4f64-5fd0-adff-7eaa9d7e5925")
-	)
-	(wire
-		(pts (xy 95.25 69.85) (xy 105.41 69.85))
-		(stroke (width 0) (type default))
-		(uuid "afa35835-a123-5f7c-8fd8-b41538ad9eba")
-	)
-	(wire
-		(pts (xy 85.09 100.33) (xy 74.93 100.33))
-		(stroke (width 0) (type default))
-		(uuid "73e0d7df-518c-5d13-a31f-7402f4f346dc")
-	)
-	(wire
-		(pts (xy 95.25 100.33) (xy 105.41 100.33))
-		(stroke (width 0) (type default))
+		(pts
+			(xy 95.25 100.33) (xy 105.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "10d36126-16ba-5c46-ad08-fee0aab09f91")
 	)
 	(wire
-		(pts (xy 139.7 90.17) (xy 129.54 90.17))
-		(stroke (width 0) (type default))
-		(uuid "872f693f-e33d-544c-8097-de56bc6e7288")
+		(pts
+			(xy 147.32 132.08) (xy 157.48 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b73bd9-1379-566d-a43e-06f3224c6c71")
 	)
 	(wire
-		(pts (xy 139.7 87.63) (xy 129.54 87.63))
-		(stroke (width 0) (type default))
+		(pts
+			(xy 139.7 87.63) (xy 129.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "3caf1c5b-6c3f-52cd-9343-266b47de7380")
 	)
 	(wire
-		(pts (xy 139.7 85.09) (xy 129.54 85.09))
-		(stroke (width 0) (type default))
-		(uuid "80f0f5c7-0e0f-57ea-8338-a4cb1e54ec06")
+		(pts
+			(xy 85.09 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5440f03c-4f64-5fd0-adff-7eaa9d7e5925")
 	)
 	(wire
-		(pts (xy 147.32 134.62) (xy 157.48 134.62))
-		(stroke (width 0) (type default))
+		(pts
+			(xy 147.32 134.62) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "64e621a6-dceb-5a01-9709-ac4b2d7885fa")
 	)
 	(wire
-		(pts (xy 147.32 132.08) (xy 157.48 132.08))
-		(stroke (width 0) (type default))
-		(uuid "31b73bd9-1379-566d-a43e-06f3224c6c71")
-	)
-	(hierarchical_label "HP_R"
-		(shape input)
-		(at 74.93 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+		(pts
+			(xy 85.09 100.33) (xy 74.93 100.33)
 		)
-		(uuid "24807c72-8caf-5f73-970b-6e330570c902")
-	)
-	(label "HP_R_JACK"
-		(at 105.41 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "cf8cb29d-8be9-5ffa-8b91-a66c515424be")
+		(uuid "73e0d7df-518c-5d13-a31f-7402f4f346dc")
 	)
-	(hierarchical_label "HP_L"
-		(shape input)
-		(at 74.93 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 139.7 85.09) (xy 129.54 85.09)
 		)
-		(uuid "87461737-d103-56e7-a279-0f82d5d13b01")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f0f5c7-0e0f-57ea-8338-a4cb1e54ec06")
 	)
-	(label "HP_L_JACK"
-		(at 105.41 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 139.7 90.17) (xy 129.54 90.17)
 		)
-		(uuid "e473fb8b-ab0a-5cfa-8d4b-45f09f62a5be")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "872f693f-e33d-544c-8097-de56bc6e7288")
 	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 129.54 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 95.25 69.85) (xy 105.41 69.85)
 		)
-		(uuid "cb352803-aade-5e9c-a075-b8e355dcf605")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa35835-a123-5f7c-8fd8-b41538ad9eba")
 	)
 	(label "HP_L_JACK"
 		(at 129.54 87.63 180)
@@ -779,6 +771,37 @@
 		)
 		(uuid "7a7f6c67-4285-59b8-be57-ee0fae5d4fd3")
 	)
+	(label "HP_R_JACK"
+		(at 105.41 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf8cb29d-8be9-5ffa-8b91-a66c515424be")
+	)
+	(label "HP_L_JACK"
+		(at 105.41 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e473fb8b-ab0a-5cfa-8d4b-45f09f62a5be")
+	)
+	(hierarchical_label "HP_R"
+		(shape input)
+		(at 74.93 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24807c72-8caf-5f73-970b-6e330570c902")
+	)
 	(hierarchical_label "SPK_P"
 		(shape input)
 		(at 157.48 134.62 0)
@@ -789,6 +812,28 @@
 			(justify left)
 		)
 		(uuid "65017c80-cd5c-59cf-bc20-c9a1579d17e6")
+	)
+	(hierarchical_label "HP_L"
+		(shape input)
+		(at 74.93 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87461737-d103-56e7-a279-0f82d5d13b01")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 129.54 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb352803-aade-5e9c-a075-b8e355dcf605")
 	)
 	(hierarchical_label "SPK_N"
 		(shape input)
@@ -802,331 +847,330 @@
 		(uuid "cb4cc005-5dd1-5bd6-9a28-a8e9d6db3ca3")
 	)
 	(symbol
-			(lib_id "WM8978-easyedapro:220UF/16V_C9900022878")
-			(at 90.17 69.85 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "f7acd2a3-c7b6-4e2c-9936-2d4857e48194")
-			(property "Reference" "C86"
-				(at 82.55 69.85 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
+		(lib_id "WM8978-easyedapro:220UF/16V_C9900022878")
+		(at 90.17 100.33 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29021200-f848-43f5-9c5d-b0360f4bae2b")
+		(property "Reference" "C87"
+			(at 82.55 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
-			)
-			(property "Value" "220uF/6.3V"
-				(at 92.71 69.85 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-				(at 90.17 69.85 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 90.17 69.85 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 90.17 69.85 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "e31a0bf1-ba75-4fe3-aec7-b87b70b78d8f")
-			)
-			(pin "2"
-				(uuid "b7220b3e-460f-4fe0-b457-a6b1c7d294aa")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
-						(reference "C86")
-						(unit 1)
-					)
-				)
+				(justify left bottom)
 			)
 		)
-	(symbol
-			(lib_id "WM8978-easyedapro:220UF/16V_C9900022878")
+		(property "Value" "220uF/6.3V"
+			(at 92.71 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 90.17 100.33 0)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "29021200-f848-43f5-9c5d-b0360f4bae2b")
-			(property "Reference" "C87"
-				(at 82.55 100.33 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "220uF/6.3V"
-				(at 92.71 100.33 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-				(at 90.17 100.33 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 90.17 100.33 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 90.17 100.33 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "f343cd37-a15b-47b9-9b09-0285ffbc7ca0")
-			)
-			(pin "2"
-				(uuid "3ae4ea01-3f92-4967-b097-9233bc8dd4dc")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
-						(reference "C87")
-						(unit 1)
-					)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Datasheet" ""
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f343cd37-a15b-47b9-9b09-0285ffbc7ca0")
+		)
+		(pin "2"
+			(uuid "3ae4ea01-3f92-4967-b097-9233bc8dd4dc")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
+					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
-			(lib_id "WM8978-easyedapro:PJ-3136-B")
-			(at 144.78 85.09 180)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "92e2fb38-9736-4760-a5d2-31960db4d3a6")
-			(property "Reference" "CN2"
-				(at 144.78 83.82 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		(lib_id "WM8978-easyedapro:PJ-3136-B")
+		(at 144.78 85.09 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92e2fb38-9736-4760-a5d2-31960db4d3a6")
+		(property "Reference" "CN2"
+			(at 144.78 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Value" "HEADPHONE 3.5mm"
-				(at 144.78 93.98 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		)
+		(property "Value" "HEADPHONE 3.5mm"
+			(at 144.78 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Footprint" "WM8978-import-fps:AUDIO-TH_PJ-3136-B"
-				(at 144.78 85.09 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231101/FB45AABFD04C0979FDEE8A028D0B6336.pdf"
-				(at 144.78 85.09 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 144.78 85.09 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "2"
-				(uuid "7d6a5269-e753-4522-9301-a8b21546ecac")
-			)
-			(pin "3"
-				(uuid "cc3f1ab6-a383-4e8b-8506-b315dce40ea5")
-			)
-			(pin "4"
-				(uuid "1e96e5bf-d973-40f3-aca7-9962c0f8d7e6")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
-						(reference "CN2")
-						(unit 1)
-					)
+		)
+		(property "Footprint" "WM8978-import-fps:AUDIO-TH_PJ-3136-B"
+			(at 144.78 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231101/FB45AABFD04C0979FDEE8A028D0B6336.pdf"
+			(at 144.78 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7d6a5269-e753-4522-9301-a8b21546ecac")
+		)
+		(pin "3"
+			(uuid "cc3f1ab6-a383-4e8b-8506-b315dce40ea5")
+		)
+		(pin "4"
+			(uuid "1e96e5bf-d973-40f3-aca7-9962c0f8d7e6")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
-			(lib_id "WM8978-easyedapro:FS-2308")
-			(at 144.78 134.62 180)
-			(unit 1)
-			(body_style 0)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(dnp no)
-			(uuid "a08702f4-6644-4822-8d24-129fc64d836b")
-			(property "Reference" "SPK2"
-				(at 139.7 129.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		(lib_id "WM8978-easyedapro:FS-2308")
+		(at 144.78 134.62 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a08702f4-6644-4822-8d24-129fc64d836b")
+		(property "Reference" "SPK2"
+			(at 139.7 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Value" "SPEAKER 8R BTL"
-				(at 139.7 139.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.2446 1.2446)
-					)
-					(justify right top)
+		)
+		(property "Value" "SPEAKER 8R BTL"
+			(at 139.7 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
 				)
+				(justify right top)
 			)
-			(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-				(at 144.78 134.62 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200113/C482322_D09CD61BAFBB8D4AD64070E01BFD18FF.pdf"
-				(at 144.78 134.62 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 144.78 134.62 0)
-				(hide yes)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(pin "1"
-				(uuid "80aa1b95-7d4f-485c-82b7-47712c7021a6")
-			)
-			(pin "2"
-				(uuid "84b61e29-9240-4559-a9cf-f953f7b4c10a")
-			)
-			(instances
-				(project "WM8978"
-					(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
-						(reference "SPK2")
-						(unit 1)
-					)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
-	(embedded_fonts no)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200113/C482322_D09CD61BAFBB8D4AD64070E01BFD18FF.pdf"
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80aa1b95-7d4f-485c-82b7-47712c7021a6")
+		)
+		(pin "2"
+			(uuid "84b61e29-9240-4559-a9cf-f953f7b4c10a")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
+					(reference "SPK2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:220UF/16V_C9900022878")
+		(at 90.17 69.85 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7acd2a3-c7b6-4e2c-9936-2d4857e48194")
+		(property "Reference" "C86"
+			(at 82.55 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220uF/6.3V"
+			(at 92.71 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
+			(at 90.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e31a0bf1-ba75-4fe3-aec7-b87b70b78d8f")
+		)
+		(pin "2"
+			(uuid "b7220b3e-460f-4fe0-b457-a6b1c7d294aa")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/6ce28669-25af-5aad-9271-f475e5fa5adb"
+					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
