@@ -5,9 +5,9 @@
 	(uuid "9179e44a-8a7e-5e09-9036-e15bc96d1803")
 	(paper "A4")
 	(title_block
-		(title "WM8978 Codec")
-		(date "2026-09-20")
-		(rev "HIER-1")
+		(title "WM8978 Codec and Microphone Front End")
+		(date "2026-09-21")
+		(rev "HIER-3")
 		(company "WM8978 USB Audio")
 	)
 	(lib_symbols
@@ -576,6 +576,244 @@
 						(effects
 							(font
 								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "WM8978-easyedapro:GMI4015P-2C-42DB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "WM8978-easyedapro:MIC-TH_BD4.0-P1.40-D0.4-L-FD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180613/C233304_D8FE5A0D9DC594913DFA1A209BBF4764.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "GMI4015P-2C-42db"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "INGHAi(赢海)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part" "C233292"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Name" "全指向双电容φ4.0*1.5mm 1.5V-10V 灵敏度-42dB 低阻抗"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GMI4015P-2C-42DB_1_0"
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.54) (xy 3.048 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.54) (xy 3.048 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 3.302) (xy 2.286 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -5.08)
+					(mid 0 0)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1462,6 +1700,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 66.04 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e3c11b6-77fd-4bc7-8337-740fa2d32df8")
+	)
+	(junction
+		(at 232.41 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ed2041-0459-4e70-b245-db95ae3ab4e5")
+	)
+	(junction
+		(at 231.14 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73ecfe1f-a379-4e64-b95f-5475b94c4662")
+	)
+	(junction
+		(at 200.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa04128-1f73-531a-baee-039673589814")
+	)
+	(junction
+		(at 232.41 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8534fa36-b412-408f-90f5-a0ec35df88cb")
+	)
+	(junction
+		(at 231.14 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b89ee345-00df-419c-ab01-bfd065db5347")
+	)
 	(no_connect
 		(at 151.13 90.17)
 		(uuid "2598c7bb-fd2e-5271-8ea7-d569e100106a")
@@ -1491,450 +1765,1035 @@
 		(uuid "ae19b703-f54e-5af2-a9c7-7a8cb8409c5d")
 	)
 	(no_connect
-		(at 151.13 118.11)
-		(uuid "b0ea7426-fc99-50de-940b-c1a610820345")
-	)
-	(no_connect
 		(at 151.13 80.01)
 		(uuid "bf40c85b-4aae-5438-adc0-e8e19684a960")
 	)
-	(no_connect
-		(at 115.57 92.71)
-		(uuid "cc50a784-7e56-515b-b844-0d392e4cb505")
+	(wire
+		(pts
+			(xy 231.14 57.15) (xy 219.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013ba226-b542-4e2e-aed7-4a6782747907")
 	)
-	(no_connect
-		(at 151.13 92.71)
-		(uuid "dbb7bce6-b1df-54c3-9cd0-dbc1cfbb1ff6")
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c9fd57-cdf4-5156-973b-87b9a3cafb57")
 	)
-	(no_connect
-		(at 151.13 95.25)
-		(uuid "eb6620a1-0460-5608-bba6-c764dd6165f5")
+	(wire
+		(pts
+			(xy 180.34 154.94) (xy 193.04 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c29fca-a559-49c2-b093-ea0cb9bdf7f3")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 115.57 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0adebf-9057-5378-8d0b-07429ed6890d")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 180.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b49c5b5-f9c9-55ef-8264-d18fd36a4198")
+	)
+	(wire
+		(pts
+			(xy 105.41 110.49) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cf4143-3493-58df-926f-bad98aeb9d3d")
+	)
+	(wire
+		(pts
+			(xy 231.14 67.31) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11abdf69-f757-4bb4-bd31-b9963b12cdda")
+	)
+	(wire
+		(pts
+			(xy 151.13 69.85) (xy 161.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1525934f-5df3-51d9-90e1-d4a38b7ba5f5")
+	)
+	(wire
+		(pts
+			(xy 160.02 144.78) (xy 180.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19640547-1f01-575a-acba-a83e04ccabb4")
+	)
+	(wire
+		(pts
+			(xy 105.41 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21260d64-4685-505c-9d76-f66647141677")
+	)
+	(wire
+		(pts
+			(xy 214.63 134.62) (xy 240.03 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2207b061-23d0-581e-8471-b42ad83ba32a")
+	)
+	(wire
+		(pts
+			(xy 151.13 118.11) (xy 193.04 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26186277-e16a-4e44-bbb6-2bfe4ba58ff8")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27818588-6a56-577a-bd4e-79e11156ecf1")
+	)
+	(wire
+		(pts
+			(xy 232.41 96.52) (xy 232.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e7ac92-5c9e-5067-91b6-71ef35c7d3dd")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3251eb7e-887d-504f-869e-84d711b95b76")
+	)
+	(wire
+		(pts
+			(xy 66.04 139.7) (xy 71.12 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4062a9e6-89ab-4e7c-bc97-81c021031e0d")
+	)
+	(wire
+		(pts
+			(xy 151.13 120.65) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4269caab-ce35-5ac6-a147-240050b72ae1")
+	)
+	(wire
+		(pts
+			(xy 110.49 77.47) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45836108-64ae-5405-b6a8-47630b359bf4")
+	)
+	(wire
+		(pts
+			(xy 110.49 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1fa915-3150-53d0-b58c-f25d674368be")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd032b0-b055-5455-a14e-e536a0a113d5")
+	)
+	(wire
+		(pts
+			(xy 240.03 134.62) (xy 240.03 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c81167-9999-5e6c-a5f8-02df04298748")
+	)
+	(wire
+		(pts
+			(xy 231.14 54.61) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d578638-3f3c-4598-bd43-fb3c03a0dd5e")
+	)
+	(wire
+		(pts
+			(xy 151.13 95.25) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fab226a-14fc-427f-9b67-d8ba56c51dd1")
+	)
+	(wire
+		(pts
+			(xy 224.79 127) (xy 224.79 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666cab6d-b077-57d5-997a-b280f1bc2a94")
+	)
+	(wire
+		(pts
+			(xy 231.14 67.31) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a761c4-0ab5-59ca-bdeb-326d631aa2ad")
+	)
+	(wire
+		(pts
+			(xy 110.49 82.55) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c85c73-a88e-599e-a7df-f4603c12f11d")
+	)
+	(wire
+		(pts
+			(xy 219.71 67.31) (xy 231.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f7be93-16c2-523d-a6e5-8ecff2c9b402")
+	)
+	(wire
+		(pts
+			(xy 214.63 127) (xy 214.63 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c28c14e-0ab1-5807-84f7-2034f67a1e9f")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0be886-5f14-53c8-b016-4dccff7685af")
+	)
+	(wire
+		(pts
+			(xy 105.41 97.79) (xy 115.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e760ef8-f4fb-52a3-baf6-a6a1d3750ff4")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 200.66 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c220f4-586a-5fe7-914c-33bcc6998f17")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 115.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773957c7-e00a-5bd8-ac1e-98a07db558ba")
+	)
+	(wire
+		(pts
+			(xy 232.41 86.36) (xy 245.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4a0191-5f18-4502-a949-ac5191d39b13")
+	)
+	(wire
+		(pts
+			(xy 193.04 118.11) (xy 193.04 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8052ca33-0a4e-42c2-9266-28a7917f0dbe")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82750537-cf3d-4fc8-8dc0-4df5f50dd01f")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a38af5-279f-5012-9a15-3594e9ac64b2")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9216d712-3195-5369-9f40-bf89fa7220e5")
+	)
+	(wire
+		(pts
+			(xy 232.41 96.52) (xy 245.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b2aee4-701a-4d41-86fc-ccf48c8a2b89")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 115.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93aabe5c-6572-5e3f-8e79-666ae296a400")
+	)
+	(wire
+		(pts
+			(xy 105.41 64.77) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f0986f-b879-52fc-8726-c0c866a40f0d")
+	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 156.21 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d56092-d094-49f3-85f9-ac68a49ae695")
+	)
+	(wire
+		(pts
+			(xy 250.19 121.92) (xy 250.19 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae29a4b-2ac2-5dd0-a753-fd9f12af17de")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e25d7c8-c8f5-5157-8e50-be85d8db6ead")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3382b3-f028-5d67-908f-0dcdda78b0b5")
+	)
+	(wire
+		(pts
+			(xy 200.66 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06f47a4-de73-5632-99a2-1c7f74382203")
+	)
+	(wire
+		(pts
+			(xy 219.71 96.52) (xy 232.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b448ca-b284-5c30-b45d-d93988b63572")
+	)
+	(wire
+		(pts
+			(xy 232.41 78.74) (xy 232.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8072366-97af-4971-9cf7-e476e4d81fc3")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 160.02 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89afb50-c713-5e6e-92ce-f3a3a2c63f14")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 115.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bfb905-48ed-5cf3-a785-1d03fd270add")
+	)
+	(wire
+		(pts
+			(xy 110.49 80.01) (xy 110.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34bbbef-18c6-51fd-b279-bfdd2d345a75")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 110.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb60ad9-fcf9-5a8d-a0fa-d69fe094a8d7")
+	)
+	(wire
+		(pts
+			(xy 105.41 120.65) (xy 115.57 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16b8933-c642-540c-8db7-467df4565d47")
+	)
+	(wire
+		(pts
+			(xy 232.41 86.36) (xy 219.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d340c9e8-339d-4b05-84eb-0703aea0b278")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4872039-550c-52c8-9579-da666e2b6783")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def3d6a6-7e90-55b1-8c0a-37f551be0bf0")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e341c8a3-a377-5835-845e-24717d225b90")
+	)
+	(wire
+		(pts
+			(xy 195.58 72.39) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37d9e64-2a26-5cad-a92e-0e739e79e865")
+	)
+	(wire
+		(pts
+			(xy 66.04 139.7) (xy 66.04 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4678f83-14f0-4bee-91ad-0bb88bd96df3")
+	)
+	(wire
+		(pts
+			(xy 110.49 77.47) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60e08c8-e256-5597-bf09-11800f735d78")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e696469a-14f3-5120-9a37-f07a12d53061")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb74e3e7-2f28-5dba-b26b-6659c32c8483")
+	)
+	(wire
+		(pts
+			(xy 224.79 121.92) (xy 250.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd99f5b-e192-5ed3-b0cd-d8524da172e6")
+	)
+	(wire
+		(pts
+			(xy 231.14 57.15) (xy 245.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddf5d81-8d66-4739-aca5-527767266d0b")
+	)
+	(wire
+		(pts
+			(xy 180.34 129.54) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00f8c48-a29d-52be-91ac-e04d52e728fd")
+	)
+	(wire
+		(pts
+			(xy 105.41 107.95) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9735a33-48ec-53c2-a2b6-5fb5ecd99e18")
 	)
 	(label "GND"
-		(at 245.11 96.52 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "180bb6fa-5a97-54f3-b335-f49d989556cb")
-	)
-	(label "3V3"
-		(at 219.71 86.36 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "296193e0-fa67-515e-8436-0d876fec272b")
-	)
-	(label "3V3"
-		(at 115.57 62.23 180)
+		(at 67.31 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2bc7dd44-d5bc-5d24-b959-598774abac3d")
+		(uuid "01d5bd65-907c-4dcc-94ee-2fde137d4243")
 	)
 	(label "GND"
-		(at 180.34 129.54 90)
+		(at 185.42 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "302c3a41-edf3-5271-a1b9-bf104edc7fd6")
+		(uuid "120ec4fd-b68e-5c6e-8fae-275ddd2fff9c")
 	)
-	(label "3V3"
-		(at 245.11 57.15 90)
+	(label "MIC_LIN"
+		(at 77.47 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "39d8adab-44d3-5a3c-9bb2-2192affeb1d0")
-	)
-	(label "3V3"
-		(at 195.58 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47b272fe-9d8a-50be-96b9-4321f799a6a9")
+		(uuid "1bfdb876-e47d-48c7-ad0a-84de3551331f")
 	)
 	(label "GND"
-		(at 219.71 67.31 90)
+		(at 231.14 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4c0adc8d-2a53-592b-b19f-2c5600565c4a")
-	)
-	(label "3V3"
-		(at 219.71 57.15 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4eb34c3e-df7d-599f-86be-87f6d436bb8e")
-	)
-	(label "3V3"
-		(at 195.58 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "55edada9-0fa0-5d5d-9e18-7397587af67e")
-	)
-	(label "MODE"
-		(at 115.57 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5bc07389-b1a6-5e61-80d8-27de824b9b9b")
+		(uuid "1cb4bc05-4131-5937-bd04-dd92d63fce26")
 	)
 	(label "CODEC_SDIN"
-		(at 185.42 72.39 180)
+		(at 180.34 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "5ce17cf9-70c6-5ae4-90ee-1f0c0923be41")
+		(uuid "207044e4-fe05-5e89-a490-1f10683af6fe")
 	)
-	(label "3V3"
-		(at 245.11 86.36 90)
+	(label "VBUS_5V"
+		(at 237.49 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5e400693-a2ec-5796-91a9-65598de96442")
-	)
-	(label "GND"
-		(at 180.34 154.94 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69629af4-3358-513f-b7b8-8cdd0a0261a8")
-	)
-	(label "GND"
-		(at 115.57 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8304a758-8f57-52bc-af1a-8b0aaaa3b75d")
-	)
-	(label "GND"
-		(at 245.11 67.31 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8da4160b-3faa-5984-baa5-1eac439c9b4d")
-	)
-	(label "VMID"
-		(at 180.34 144.78 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e6ca81f-1dbc-5601-902f-48745d216fe2")
-	)
-	(label "GND"
-		(at 219.71 96.52 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a969d441-838c-5ce3-9a9b-7ba1e7f20d53")
-	)
-	(label "GND"
-		(at 115.57 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b7800795-ee0b-5095-87f5-73cc87243dcd")
-	)
-	(label "GND"
-		(at 115.57 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb7c801a-2840-5bb5-bdb2-2e52f3f99320")
-	)
-	(label "GND"
-		(at 115.57 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1f8e38f-7bce-5add-afbe-844e2f652914")
+		(uuid "38196d35-f4c1-5499-937b-76dbd53dafa3")
 	)
 	(label "MODE"
-		(at 180.34 119.38 90)
+		(at 175.26 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "d68fdb57-42f9-5bf4-b9c7-a17d70ba043d")
+		(uuid "44ff4661-fe54-577f-b3f4-0ca0def22345")
 	)
 	(label "GND"
-		(at 214.63 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ea0dc352-9fad-560d-9e70-78e1fdd6c162")
-	)
-	(label "GND"
-		(at 240.03 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb0f6d62-3e31-5de7-8242-652d65055b7a")
-	)
-	(label "VBUS_5V"
-		(at 224.79 127 0)
+		(at 227.33 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ecd4a606-4a9e-5a47-911d-93f4f3b47843")
+		(uuid "45db69e3-1296-52ac-88e0-1af20570c506")
 	)
-	(label "VMID"
-		(at 151.13 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f31f4d56-7a7c-5e45-8e78-c469015778ed")
-	)
-	(label "3V3"
-		(at 115.57 67.31 180)
+	(label "MODE"
+		(at 105.41 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f358d66e-142b-55d6-9ae7-f5bb790b22c4")
+		(uuid "4c23ccee-745e-56db-b3a2-46134792f69c")
+	)
+	(label "MIC_LIP"
+		(at 156.21 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f739317-d64e-4eae-9c05-244a2f318785")
 	)
 	(label "CODEC_SCLK"
-		(at 185.42 91.44 180)
+		(at 180.34 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f468dae8-e0e0-57ff-9ff4-61763485d2ad")
+		(uuid "52f09eac-5124-54a8-8007-42748de4545a")
 	)
-	(label "VBUS_5V"
-		(at 250.19 127 0)
+	(label "MICBIAS"
+		(at 156.21 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fec26786-82a6-59d1-9162-ee7f9f3fd03c")
+		(uuid "549ac27a-64c4-4146-b91e-1391b5c0ebea")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 115.57 64.77 180)
+	(label "GND"
+		(at 66.04 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "077795b7-08b5-5c50-bb9c-ea61c32a96c8")
+		(uuid "6c751438-0281-4a30-9931-16eab036f377")
+	)
+	(label "GND"
+		(at 105.41 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d25121d-2980-5bdd-a359-1e19269e188a")
+	)
+	(label "MIC_LIP"
+		(at 81.28 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "723419e6-f87d-431e-97b7-21b997b4d68f")
+	)
+	(label "GND"
+		(at 232.41 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "748a9b1c-65a4-516e-910a-75371e559982")
+	)
+	(label "GND"
+		(at 185.42 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8afefae5-b769-5324-bb17-edd1f41cfd5c")
+	)
+	(label "MIC_LIN"
+		(at 156.21 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "954af99e-b54f-4201-ae43-b663119670c2")
+	)
+	(label "3V3"
+		(at 232.41 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c277839e-9109-5f20-a064-e50eaa5e1719")
+	)
+	(label "3V3"
+		(at 231.14 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c61c56d6-d401-5866-8c0e-ee7602b33fce")
+	)
+	(label "MICBIAS"
+		(at 55.88 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c847641f-bd22-4aa0-8895-82f59495a84f")
+	)
+	(label "3V3"
+		(at 205.74 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4954c5f-08a3-54a5-b913-0cb3f2367f9f")
+	)
+	(hierarchical_label "I2S_MCLK"
+		(shape bidirectional)
+		(at 105.41 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0167a43a-9604-5fa0-87c2-abf6bd3bd59e")
+	)
+	(hierarchical_label "I2S_BCLK"
+		(shape bidirectional)
+		(at 105.41 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08e391c9-88d0-519c-8c39-2a58b43b80fb")
+	)
+	(hierarchical_label "SPK_N"
+		(shape bidirectional)
+		(at 161.29 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac52bee-8049-5ad7-9943-cc066e00bc22")
+	)
+	(hierarchical_label "I2S_ADCDAT"
+		(shape output)
+		(at 105.41 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3912860e-1949-48cd-ae14-593307f5ddc8")
+	)
+	(hierarchical_label "I2S_LRCLK"
+		(shape bidirectional)
+		(at 105.41 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69583201-2dd6-5397-aa57-837f610cd513")
+	)
+	(hierarchical_label "VBUS_5V"
+		(shape bidirectional)
+		(at 105.41 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "725e6b1e-565a-5b3a-bc9e-cb5424731784")
 	)
 	(hierarchical_label "SPK_P"
-		(shape output)
-		(at 151.13 67.31 0)
+		(shape bidirectional)
+		(at 161.29 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1c926341-a0c3-58c0-8e68-5b82e2d86f61")
-	)
-	(hierarchical_label "HP_R"
-		(shape output)
-		(at 151.13 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6154bd49-eed7-5dde-914c-8971d558e5f0")
+		(uuid "73fdb4fb-00f7-5808-840a-b08063c24c3a")
 	)
 	(hierarchical_label "HP_L"
-		(shape output)
-		(at 151.13 62.23 0)
+		(shape bidirectional)
+		(at 161.29 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "626ec381-ace6-58b7-8a7d-9b773678a195")
+		(uuid "8365f264-8d38-5d68-a535-12d4310e40ff")
 	)
 	(hierarchical_label "CODEC_SDIN"
 		(shape bidirectional)
-		(at 115.57 110.49 180)
+		(at 105.41 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "708b4f5b-eb7d-5833-b473-9a9bf3738e08")
-	)
-	(hierarchical_label "I2S_LRCLK"
-		(shape input)
-		(at 115.57 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8856a298-de0d-595a-b905-f1db91bb3584")
-	)
-	(hierarchical_label "I2S_DACDAT"
-		(shape input)
-		(at 115.57 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93227111-00d2-5b4c-8ef8-1f24006c222e")
-	)
-	(hierarchical_label "I2S_BCLK"
-		(shape input)
-		(at 115.57 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3e71d24-48d5-5cf1-80fa-10926432c0ad")
-	)
-	(hierarchical_label "I2S_MCLK"
-		(shape input)
-		(at 115.57 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab578c79-e355-5e24-8adf-3972f0521541")
-	)
-	(hierarchical_label "VBUS_5V"
-		(shape input)
-		(at 115.57 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca8ce7ca-f5c5-5091-aab8-360cccb06e00")
-	)
-	(hierarchical_label "CODEC_SCLK"
-		(shape input)
-		(at 115.57 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2810631-5939-5156-b18c-2ae0a75bf051")
+		(uuid "8d34ef3d-7f45-57c3-aca7-a665d52c70e9")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 115.57 74.93 180)
+		(at 105.41 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f53668ea-1969-5f94-b37f-3fb3a92701c5")
+		(uuid "8d78a4f8-d760-57c4-a498-b8f220ba6a43")
 	)
-	(hierarchical_label "SPK_N"
-		(shape output)
-		(at 151.13 69.85 0)
+	(hierarchical_label "3V3"
+		(shape bidirectional)
+		(at 105.41 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9af6b5a9-f01e-53c6-9836-73f758539d01")
+	)
+	(hierarchical_label "CODEC_SCLK"
+		(shape bidirectional)
+		(at 105.41 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0ab8c25-a3a5-54e4-99df-f209fe64256e")
+	)
+	(hierarchical_label "HP_R"
+		(shape bidirectional)
+		(at 161.29 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f72b9f65-de22-5bee-b13f-8b0f8215ed6f")
+		(uuid "cd202293-9b93-543c-9f33-b0260ff4b28e")
+	)
+	(hierarchical_label "I2S_DACDAT"
+		(shape bidirectional)
+		(at 105.41 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1303cdb-176c-5fa6-b89b-91b9d5a5a395")
 	)
 	(symbol
-		(lib_id "WM8978-easyedapro:CL21A106KPFNNNF")
+		(lib_id "WM8978-easyedapro:CapAcitance")
 		(at 180.34 149.86 180)
 		(unit 1)
 		(body_style 0)
@@ -1966,7 +2825,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.34 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -1988,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WM8978 VMID decoupling; 4.7uF low-ESR capacitor per datasheet Figure 72"
 			(at 180.34 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -2015,7 +2874,88 @@
 		)
 	)
 	(symbol
-		(lib_id "WM8978-easyedapro:CL21A106KPFNNNF")
+		(lib_id "WM8978-easyedapro:CapAcitance")
+		(at 193.04 149.86 180)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "161c66da-9672-406d-8850-05f7c8219fb2")
+		(property "Reference" "C96"
+			(at 194.31 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 193.04 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WM8978 MICBIAS decoupling; 4.7uF low-ESR capacitor per datasheet Figure 72"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fa10cf3-37db-4f6c-8da9-c95e8ad2830c")
+		)
+		(pin "2"
+			(uuid "46787dcd-b646-4542-981f-14edb79f9550")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/1de0fd92-823c-5938-83bd-4bbc4728ca39"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:CapAcitance")
 		(at 245.11 127 90)
 		(unit 1)
 		(body_style 0)
@@ -2036,7 +2976,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 246.38 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,7 +2987,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
@@ -2069,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WM8978 SPKVDD decoupling; 4.7uF low-ESR capacitor per datasheet Figure 72"
 			(at 245.11 127 0)
 			(hide yes)
 			(show_name no)
@@ -2150,7 +3090,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WM8978 DCVDD local high-frequency bypass; place beside DCVDD/DGND"
 			(at 219.71 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2177,7 +3117,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WM8978-easyedapro:CL21A106KPFNNNF")
+		(lib_id "WM8978-easyedapro:CapAcitance")
 		(at 245.11 62.23 180)
 		(unit 1)
 		(body_style 0)
@@ -2198,7 +3138,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 245.11 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2209,7 +3149,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2231,7 +3171,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WM8978 DBVDD decoupling; 4.7uF low-ESR capacitor per datasheet Figure 72"
 			(at 245.11 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2252,6 +3192,87 @@
 			(project "WM8978"
 				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/1de0fd92-823c-5938-83bd-4bbc4728ca39"
 					(reference "C89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:FRC0603F1002TS")
+		(at 60.96 139.7 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "788f230a-9a48-4caf-a19f-56d7f56bd6b6")
+		(property "Reference" "R68"
+			(at 58.42 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 58.42 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 60.96 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Electret microphone bias resistor from WM8978 MICBIAS"
+			(at 60.96 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0129f65-d230-4ca1-87d2-b738a2549f90")
+		)
+		(pin "2"
+			(uuid "12d93523-3b87-4a22-8414-0b78bf2fde32")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/1de0fd92-823c-5938-83bd-4bbc4728ca39"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -2486,7 +3507,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WM8978 AVDD local high-frequency bypass; place beside AVDD/AGND"
 			(at 219.71 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2507,6 +3528,87 @@
 			(project "WM8978"
 				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/1de0fd92-823c-5938-83bd-4bbc4728ca39"
 					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:CapAcitance")
+		(at 76.2 139.7 90)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abda54d5-c6cf-4e08-8132-0557b08a7a5a")
+		(property "Reference" "C79"
+			(at 73.66 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 73.66 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AC coupling from electret microphone to WM8978 LIP"
+			(at 76.2 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05a35267-9f18-488a-9800-74527186b8f2")
+		)
+		(pin "2"
+			(uuid "e9b163c7-f4e7-44b9-8a64-356992eb33d5")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/1de0fd92-823c-5938-83bd-4bbc4728ca39"
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -2594,6 +3696,168 @@
 		)
 	)
 	(symbol
+		(lib_id "WM8978-easyedapro:CapAcitance")
+		(at 72.39 163.83 90)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbe0fbe1-67c3-418f-a7eb-ac35af5b333e")
+		(property "Reference" "C80"
+			(at 76.962 161.798 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 71.374 162.052 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 72.39 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AC-ground reference coupling to WM8978 LIN"
+			(at 72.39 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11285433-35c3-477f-843c-1cb44f46576b")
+		)
+		(pin "2"
+			(uuid "e5e99496-5d8a-462d-96d5-2f33d97ae27c")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/1de0fd92-823c-5938-83bd-4bbc4728ca39"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WM8978-easyedapro:GMI4015P-2C-42DB")
+		(at 71.12 149.86 0)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e01d5f78-c21c-4b44-a2b5-a41dbbaec694")
+		(property "Reference" "MIC1"
+			(at 77.47 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ELECTRET MIC"
+			(at 77.47 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "WM8978-import-fps:MIC-TH_BD4.0-P1.40-D0.4-L-FD"
+			(at 71.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180613/C233304_D8FE5A0D9DC594913DFA1A209BBF4764.pdf"
+			(at 71.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "On-board electret microphone for USB audio capture"
+			(at 71.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2458034-f0a8-44ce-926b-b83c9e9972fa")
+		)
+		(pin "2"
+			(uuid "e67654b5-cdbb-4b88-93dd-5c66222bd7f6")
+		)
+		(instances
+			(project "WM8978"
+				(path "/e66edf14-e80e-43d6-93c5-ecec06481566/1de0fd92-823c-5938-83bd-4bbc4728ca39"
+					(reference "MIC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "WM8978-easyedapro:CL03A104KO3NNNC")
 		(at 219.71 127 90)
 		(unit 1)
@@ -2648,7 +3912,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WM8978 SPKVDD local high-frequency bypass; place beside SPKVDD/SPKGND"
 			(at 219.71 127 0)
 			(hide yes)
 			(show_name no)
@@ -2675,7 +3939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "WM8978-easyedapro:CL21A106KPFNNNF")
+		(lib_id "WM8978-easyedapro:CapAcitance")
 		(at 245.11 91.44 180)
 		(unit 1)
 		(body_style 0)
@@ -2696,7 +3960,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "4.7uF"
 			(at 245.11 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2729,7 +3993,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WM8978 AVDD decoupling; 4.7uF low-ESR capacitor per datasheet Figure 72"
 			(at 245.11 91.44 0)
 			(hide yes)
 			(show_name no)

@@ -140,9 +140,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.15,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -154,8 +154,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "HIER-1"
+      "sch_revision": "FLAT-1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -511,6 +511,101 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "AUDIO_OUT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MIC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SPEAKER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.7,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.18,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -518,7 +613,76 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/STM32F407 Core, Clock and Debug/USB_DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/STM32F407 Core, Clock and Debug/USB_DM"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "Net-(D1-A1)"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "Net-(D2-A1)"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/3V3"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/VBUS_5V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/STM32F407 Core, Clock and Debug/VDDA"
+      },
+      {
+        "netclass": "AUDIO_OUT",
+        "pattern": "/Headphone and Speaker Outputs/HP_L"
+      },
+      {
+        "netclass": "AUDIO_OUT",
+        "pattern": "/Headphone and Speaker Outputs/HP_R"
+      },
+      {
+        "netclass": "AUDIO_OUT",
+        "pattern": "Net-(C86-Pad2)"
+      },
+      {
+        "netclass": "AUDIO_OUT",
+        "pattern": "Net-(C87-Pad2)"
+      },
+      {
+        "netclass": "SPEAKER",
+        "pattern": "/Headphone and Speaker Outputs/SPK_P"
+      },
+      {
+        "netclass": "SPEAKER",
+        "pattern": "/Headphone and Speaker Outputs/SPK_N"
+      },
+      {
+        "netclass": "MIC",
+        "pattern": "/WM8978 Codec/MICBIAS"
+      },
+      {
+        "netclass": "MIC",
+        "pattern": "/WM8978 Codec/MIC_LIP"
+      },
+      {
+        "netclass": "MIC",
+        "pattern": "/WM8978 Codec/MIC_LIN"
+      },
+      {
+        "netclass": "MIC",
+        "pattern": "Net-(C79-Pad1)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -649,7 +813,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -657,33 +821,17 @@
     "top_level_sheets": [
       {
         "filename": "WM8978.kicad_sch",
-        "name": "Schematic2",
+        "name": "WM8978",
         "uuid": "e66edf14-e80e-43d6-93c5-ecec06481566"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R62-64,C60,C64,C88-93",
     "variants": []
   },
   "sheets": [
     [
       "e66edf14-e80e-43d6-93c5-ecec06481566",
-      "Schematic2"
-    ],
-    [
-      "f5892751-19ca-5356-8818-1b28b94d061d",
-      "USB Type-C and Power"
-    ],
-    [
-      "88186c52-6401-5059-b09f-da2dbb1fa056",
-      "STM32F407 Core, Clock and Debug"
-    ],
-    [
-      "1de0fd92-823c-5938-83bd-4bbc4728ca39",
-      "WM8978 Codec"
-    ],
-    [
-      "6ce28669-25af-5aad-9271-f475e5fa5adb",
-      "Headphone and Speaker Outputs"
+      "WM8978"
     ]
   ],
   "text_variables": {},
