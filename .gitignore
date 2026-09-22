@@ -1,6 +1,7 @@
 # Local history and generated build output
 pcb/.history/
 code/build/
+.work/
 
 # KiCad local state, locks, and backups
 *.lck

@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "FLAT-1"
+      "sch_revision": "SAMD21-1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -825,7 +825,7 @@
         "uuid": "e66edf14-e80e-43d6-93c5-ecec06481566"
       }
     ],
-    "used_designators": "R62-64,C60,C64,C88-93",
+    "used_designators": "R55-56,R62-64,R67,R69,R72,R81-95,#FLG133,J2-3,C60,C64,C81-82,C84-85,C88-95,C97-98,C108-128,U1-2,U19-22,SW1-2,#PWR132,#PWR159-214,CN3,D3-4,MIC2,SPK3,TP13-24,USB3,Y2",
     "variants": []
   },
   "sheets": [

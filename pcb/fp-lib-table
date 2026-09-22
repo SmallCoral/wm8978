@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "WM8978-import-fps") (type "KiCad") (uri "${KIPRJMOD}/WM8978-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+	(lib (name "WM8978-import-fps") (type "KiCad") (uri "${KIPRJMOD}/WM8978-import-fps.pretty") (options "") (descr "Project footprints, including reviewed connector geometry"))
 )

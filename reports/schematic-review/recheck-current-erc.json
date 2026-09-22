@@ -1,0 +1,68 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T13:43:21",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/e66edf14-e80e-43d6-93c5-ecec06481566",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U16 引脚 11 [MCLK, Input, Line]",
+                            "pos": {
+                                "x": 3.0861,
+                                "y": 1.9939
+                            },
+                            "uuid": "e6beae02-a912-4d3a-838a-9db73e9d8095"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "标签 'I2S_MCLK'",
+                            "pos": {
+                                "x": 2.9845,
+                                "y": 1.9939
+                            },
+                            "uuid": "0167a43a-9604-5fa0-87c2-abf6bd3bd59e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "WM8978.kicad_sch"
+}

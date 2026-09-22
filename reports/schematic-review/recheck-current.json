@@ -1,0 +1,74 @@
+{
+  "verdict": "not_ready_for_layout",
+  "source_sha256": "da9090cd18255e0a34c1a41e4236d26b039e8611c06d62f0447b395383ad4108",
+  "pcb_sha256": "3dbe479590fec1b7c73a3aa50047f6be0c3d2642301092d8fa0e42d8cbf08127",
+  "project_sha256": "a735b4348fb94e4a48c6c9c1843c64e70f60052514bbe274a237ced6aaafd8e3",
+  "erc_errors": 1,
+  "erc_warnings": 1,
+  "previous_netlist": ".work/layout-netlist.xml",
+  "current_netlist": ".work/recheck-netlist.xml",
+  "comparison_scope": "Connection groups for common component pins; old J1 and new J2 excluded and J2 checked separately. Net renaming does not count as a change.",
+  "common_pins_compared": 178,
+  "unchanged_connection_groups": 175,
+  "changed_connection_groups": [
+    {
+      "pin": "R73.2",
+      "previous_members": [
+        "R73.2",
+        "U1.15",
+        "U16.11"
+      ],
+      "current_members": [
+        "R73.2",
+        "U1.15"
+      ]
+    },
+    {
+      "pin": "U1.15",
+      "previous_members": [
+        "R73.2",
+        "U1.15",
+        "U16.11"
+      ],
+      "current_members": [
+        "R73.2",
+        "U1.15"
+      ]
+    },
+    {
+      "pin": "U16.11",
+      "previous_members": [
+        "R73.2",
+        "U1.15",
+        "U16.11"
+      ],
+      "current_members": [
+        "U16.11"
+      ]
+    }
+  ],
+  "debug_header": [
+    {
+      "pin": "J2.1",
+      "expected": "3V3 / VTref",
+      "pass": true
+    },
+    {
+      "pin": "J2.2",
+      "expected": "SWDIO",
+      "pass": true
+    },
+    {
+      "pin": "J2.3",
+      "expected": "SWCLK",
+      "pass": true
+    },
+    {
+      "pin": "J2.4",
+      "expected": "GND",
+      "pass": true
+    }
+  ],
+  "reset_on_debug_header": false,
+  "legacy_checker": "Failed at U1.15 -> I2S_MCLK; old 200-pass result does not apply to this schematic. The legacy checker also expects old J1."
+}
