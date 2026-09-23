@@ -1,0 +1,98 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T19:07:31",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/e66edf14-e80e-43d6-93c5-ecec06481566",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the symbol library 'PCM_SparkFun-Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [Conn_01x04_P2.54mm]",
+                            "pos": {
+                                "x": 0.3302,
+                                "y": 1.6256
+                            },
+                            "uuid": "839a9fb4-2f96-4fc9-8f02-9c5ea8bf8c52"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'WM8978-import-fps'",
+                    "items": [
+                        {
+                            "description": "Symbol USB2 [USB4105_Wired]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.6858
+                            },
+                            "uuid": "9c0f6793-4e0d-42d7-9a53-85c10a7e29eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'WM8978-import-fps'",
+                    "items": [
+                        {
+                            "description": "Symbol CN2 [PJ-3136-B]",
+                            "pos": {
+                                "x": 3.8862,
+                                "y": 1.2446
+                            },
+                            "uuid": "92e2fb38-9736-4760-a5d2-31960db4d3a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'WM8978-import-fps'",
+                    "items": [
+                        {
+                            "description": "Symbol MIC1 [GMI4015P-2C-42DB]",
+                            "pos": {
+                                "x": 3.9878,
+                                "y": 1.8542
+                            },
+                            "uuid": "e01d5f78-c21c-4b44-a2b5-a41dbbaec694"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "WM8978.kicad_sch"
+}

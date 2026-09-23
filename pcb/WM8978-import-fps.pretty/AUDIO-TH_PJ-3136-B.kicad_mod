@@ -433,6 +433,17 @@
 			)
 		)
 	)
+	(fp_rect
+		(start -8.25 -4.5)
+		(end 6.85 4.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f3450b5f-2f86-46d4-b06a-a4216e3b80f6")
+	)
 	(pad "2" thru_hole oval
 		(at -3.35 -3.15 90)
 		(size 1.524 2)
@@ -474,6 +485,20 @@
 		(remove_unused_layers no)
 		(uuid "240b0ec4-42c3-44b8-a031-1af0fa38d5da")
 	)
+	(pad "" np_thru_hole circle
+		(at -2.65 0)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e14aca61-be2b-4615-a9a3-aa79aa8d8490")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.35 0)
+		(size 1.6 1.6)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(uuid "68f5fcaa-2c22-46b4-bbd0-cfeca485ea53")
+	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/EASYEDA_MODELS/AUDIO-TH_PJ-3136-B.step"
 		(offset
@@ -486,7 +511,4 @@
 			(xyz -0 -0 -0)
 		)
 	)
-(pad "" np_thru_hole circle (at -2.65 0) (size 1.6 1.6) (drill 1.6) (layers "*.Cu" "*.Mask") (uuid "e14aca61-be2b-4615-a9a3-aa79aa8d8490"))
-(pad "" np_thru_hole circle (at 3.35 0) (size 1.6 1.6) (drill 1.6) (layers "*.Cu" "*.Mask") (uuid "68f5fcaa-2c22-46b4-bbd0-cfeca485ea53"))
-(fp_rect (start -8.25 -4.5) (end 6.85 4.5) (stroke (width .05) (type default)) (fill (type none)) (layer "F.CrtYd"))
 )
