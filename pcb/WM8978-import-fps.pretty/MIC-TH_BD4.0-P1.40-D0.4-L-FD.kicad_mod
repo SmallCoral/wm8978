@@ -342,15 +342,15 @@
 		(uuid "6e3a4051-8bbc-4e1d-bc6e-acde7ea7019b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/MIC-TH_BD4.0-P1.40-D0.4-L-FD.step"
+	(model "${KIPRJMOD}/WM8978.3dshapes/MIC-TH_BD4.0-P1.40-D0.4-L-FD.step"
 		(offset
-			(xyz 0 0.553 -3)
+			(xyz 0 0.55 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

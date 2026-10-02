@@ -1,0 +1,2 @@
+# Preserve original CAD bytes and keep generated STEP entity lists out of diffs.
+pcb/WM8978.3dshapes/*.step -text -diff

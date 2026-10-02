@@ -1,0 +1,20 @@
+{
+  "source_file": "AUDIO-TH_PJ-3136-B_original_6pin.step",
+  "source_sha256": "4e341e556b1d1906ee3207e52ef7454d5038ad8ea3bcbeb8ae993706c79ff537",
+  "output_file": "AUDIO-TH_PJ-3136-B_5pin.step",
+  "output_sha256": "17bfdbb348bf3e7f59719f87c015875ffcf81ec703672cf5d05a50762ffe12fb",
+  "valid_step_solid": true,
+  "solid_count": 6,
+  "lead_count_at_z_minus_2_mm": 5,
+  "removed_extra_lead_model_xy_mm": [
+    0.5,
+    -3.15
+  ],
+  "removed_volume_mm3": 0.6096701576586838,
+  "cut_box_intersection_volume_mm3": 0.6096323505882953,
+  "boolean_volume_tolerance_mm3": 0.0001,
+  "all_removed_geometry_within_extra_lead_cut_box": true,
+  "no_geometry_added": true,
+  "pcb_unchanged": true,
+  "library_derived_five_pin_adaptation_not_manufacturer_five_pin_cad": true
+}

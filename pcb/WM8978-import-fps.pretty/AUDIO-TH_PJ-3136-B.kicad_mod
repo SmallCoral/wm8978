@@ -500,15 +500,15 @@
 		(uuid "68f5fcaa-2c22-46b4-bbd0-cfeca485ea53")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/AUDIO-TH_PJ-3136-B.step"
+	(model "${KIPRJMOD}/WM8978.3dshapes/AUDIO-TH_PJ-3136-B_5pin.step"
 		(offset
-			(xyz -0.65 0 -3)
+			(xyz -0.65 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

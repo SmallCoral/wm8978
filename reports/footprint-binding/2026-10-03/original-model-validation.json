@@ -1,0 +1,171 @@
+{
+  "models": [
+    {
+      "file": "ASE.step",
+      "sha256": "4d34c2267a32739777aacae086bc741d7d91f5220e808f8b62d8596a18aecb23",
+      "bytes": 458578,
+      "valid": true,
+      "solid_count": 1,
+      "original_download_bytes_unchanged": true,
+      "bbox_mm": [
+        -1.600000000000001,
+        -1.2500000000000016,
+        -0.5501,
+        1.5999999999999994,
+        1.2500000000000022,
+        0.6500000000000001
+      ]
+    },
+    {
+      "file": "AUDIO-TH_PJ-3136-B_5pin.step",
+      "sha256": "17bfdbb348bf3e7f59719f87c015875ffcf81ec703672cf5d05a50762ffe12fb",
+      "bytes": 1019539,
+      "valid": true,
+      "solid_count": 6,
+      "original_download_bytes_unchanged": false,
+      "bbox_mm": [
+        -7.0,
+        -3.3489486220719997,
+        -3.00000000000012,
+        7.01,
+        3.3489486220719997,
+        5.000000000000002
+      ]
+    },
+    {
+      "file": "AUDIO-TH_PJ-3136-B_original_6pin.step",
+      "sha256": "4e341e556b1d1906ee3207e52ef7454d5038ad8ea3bcbeb8ae993706c79ff537",
+      "bytes": 2163026,
+      "valid": true,
+      "solid_count": 6,
+      "original_download_bytes_unchanged": true,
+      "bbox_mm": [
+        -6.999999999999999,
+        -3.3489486220720894,
+        -3.0000000000000115,
+        7.010000000000002,
+        3.348948622072095,
+        5.0
+      ]
+    },
+    {
+      "file": "MIC-TH_BD4.0-P1.40-D0.4-L-FD.step",
+      "sha256": "4e1ed64507ffb5cbbdf1b4071d359ca53c8c5bac49c15a0ee3fa18fde9d013e3",
+      "bytes": 520828,
+      "valid": true,
+      "solid_count": 1,
+      "original_download_bytes_unchanged": true,
+      "bbox_mm": [
+        -2.1647844005847885,
+        -2.1647624886012444,
+        -3.0,
+        2.1647844005847885,
+        2.164762488601245,
+        1.65
+      ]
+    }
+  ],
+  "native_assembly_lead_checks": [
+    {
+      "reference": "MIC1",
+      "native_step_lead_count": 2,
+      "all_leads_aligned_to_existing_drills": true,
+      "lead_checks": [
+        {
+          "pad": "1",
+          "pad_xy_mm": [
+            151.175,
+            98.35
+          ],
+          "native_step_lead_xy_mm": [
+            151.175,
+            98.35000000000001
+          ],
+          "centre_error_mm": 1.4210854715202004e-14
+        },
+        {
+          "pad": "2",
+          "pad_xy_mm": [
+            151.175,
+            96.95
+          ],
+          "native_step_lead_xy_mm": [
+            151.175,
+            96.95
+          ],
+          "centre_error_mm": 0.0
+        }
+      ]
+    },
+    {
+      "reference": "CN2",
+      "native_step_lead_count": 5,
+      "all_leads_aligned_to_existing_drills": true,
+      "lead_checks": [
+        {
+          "pad": "2",
+          "pad_xy_mm": [
+            129.6,
+            130.4
+          ],
+          "native_step_lead_xy_mm": [
+            129.59329966424724,
+            130.39999999999998
+          ],
+          "centre_error_mm": 0.006700335752753972
+        },
+        {
+          "pad": "2",
+          "pad_xy_mm": [
+            135.9,
+            130.4
+          ],
+          "native_step_lead_xy_mm": [
+            135.90670033575276,
+            130.39999999999998
+          ],
+          "centre_error_mm": 0.006700335752753972
+        },
+        {
+          "pad": "3",
+          "pad_xy_mm": [
+            129.6,
+            127.2
+          ],
+          "native_step_lead_xy_mm": [
+            129.59329966424724,
+            127.19999999999999
+          ],
+          "centre_error_mm": 0.006700335752753972
+        },
+        {
+          "pad": "4",
+          "pad_xy_mm": [
+            129.6,
+            123.7
+          ],
+          "native_step_lead_xy_mm": [
+            129.59329966424724,
+            123.69999999999999
+          ],
+          "centre_error_mm": 0.006700335752753972
+        },
+        {
+          "pad": "4",
+          "pad_xy_mm": [
+            135.9,
+            123.7
+          ],
+          "native_step_lead_xy_mm": [
+            135.90670033575276,
+            123.7
+          ],
+          "centre_error_mm": 0.006700335752753972
+        }
+      ]
+    }
+  ],
+  "native_ase_mounting_height_correct": true,
+  "native_cn2_mounting_height_correct": true,
+  "native_step_export_bytes": 5566330
+}

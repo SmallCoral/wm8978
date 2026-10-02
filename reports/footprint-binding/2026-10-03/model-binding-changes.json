@@ -1,0 +1,85 @@
+{
+  "references": {
+    "Y1": {
+      "file": "ASE.step",
+      "offset_mm": [
+        0.0,
+        0.0,
+        0.5501
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Y2": {
+      "file": "ASE.step",
+      "offset_mm": [
+        0.0,
+        0.0,
+        0.5501
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "MIC1": {
+      "file": "MIC-TH_BD4.0-P1.40-D0.4-L-FD.step",
+      "offset_mm": [
+        0.0,
+        0.55,
+        0.0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "CN2": {
+      "file": "AUDIO-TH_PJ-3136-B_5pin.step",
+      "offset_mm": [
+        -0.65,
+        0.0,
+        0.0
+      ],
+      "rotation_deg": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "project_library_files": [
+    "pcb/WM8978-import-fps.pretty/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.kicad_mod",
+    "pcb/WM8978-import-fps.pretty/MIC-TH_BD4.0-P1.40-D0.4-L-FD.kicad_mod",
+    "pcb/WM8978-import-fps.pretty/AUDIO-TH_PJ-3136-B.kicad_mod"
+  ],
+  "oscillator_footprint_library_before": "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
+  "oscillator_footprint_library_after": "WM8978-import-fps:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
+  "pcb_sha256": "474b74b32abed8816334f2dd972b3ac479624d02691e1b46f17e03246c343002",
+  "schematic_sha256": "ec997bf1890f5b327d74b67f1542f2626916010a5ec2dfd338209763c5ab9a2f"
+}

@@ -1,0 +1,75 @@
+{
+  "original_downloads": [
+    {
+      "references": [
+        "Y1",
+        "Y2"
+      ],
+      "file": "ASE.step",
+      "source_kind": "manufacturer_original",
+      "vendor": "Abracon",
+      "source_page": "https://abracon.com/parametric/oscillators/ASE-12.500MHZ-E-T",
+      "download_url": "https://abracon.com/Support/STEP/Oscillators/ASE.STEP.zip",
+      "unchanged_file_bytes": true,
+      "sha256": "4d34c2267a32739777aacae086bc741d7d91f5220e808f8b62d8596a18aecb23",
+      "bytes": 458578
+    },
+    {
+      "reference": "MIC1",
+      "title": "mic-th_bd4.0-p1.40-d0.4-l-fd",
+      "component_uuid": "8dd4f0cbe6e44287ae3997316d3d922d",
+      "model_uuid": "4acc112050c847b9bce81c581d36ca27",
+      "metadata_url": "https://pro.lceda.cn/api/v2/components/8dd4f0cbe6e44287ae3997316d3d922d",
+      "download_url": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/4acc112050c847b9bce81c581d36ca27",
+      "bytes": 520828,
+      "sha256": "4e1ed64507ffb5cbbdf1b4071d359ca53c8c5bac49c15a0ee3fa18fde9d013e3",
+      "file": "MIC-TH_BD4.0-P1.40-D0.4-L-FD.step",
+      "source_kind": "lceda_original_library",
+      "unchanged_file_bytes": true,
+      "bound_directly": true
+    },
+    {
+      "reference": "CN2",
+      "title": "audio-th_pj-3136-b",
+      "component_uuid": "0aa59bf5c25f4b4fa5c1c64a30ebdee9",
+      "model_uuid": "0756711cf0d14f3998115dcd19f4102c",
+      "metadata_url": "https://pro.lceda.cn/api/v2/components/0aa59bf5c25f4b4fa5c1c64a30ebdee9",
+      "download_url": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/0756711cf0d14f3998115dcd19f4102c",
+      "bytes": 2163026,
+      "sha256": "4e341e556b1d1906ee3207e52ef7454d5038ad8ea3bcbeb8ae993706c79ff537",
+      "file": "AUDIO-TH_PJ-3136-B_original_6pin.step",
+      "source_kind": "lceda_original_library",
+      "unchanged_file_bytes": true,
+      "bound_directly": false
+    }
+  ],
+  "cn2_bound_file": "AUDIO-TH_PJ-3136-B_5pin.step",
+  "cn2_user_confirmed_version": "Five metal pins; retain current footprint",
+  "cn2_adaptation": {
+    "source_file": "AUDIO-TH_PJ-3136-B_original_6pin.step",
+    "source_sha256": "4e341e556b1d1906ee3207e52ef7454d5038ad8ea3bcbeb8ae993706c79ff537",
+    "output_file": "AUDIO-TH_PJ-3136-B_5pin.step",
+    "output_sha256": "17bfdbb348bf3e7f59719f87c015875ffcf81ec703672cf5d05a50762ffe12fb",
+    "valid_step_solid": true,
+    "solid_count": 6,
+    "lead_count_at_z_minus_2_mm": 5,
+    "removed_extra_lead_model_xy_mm": [
+      0.5,
+      -3.15
+    ],
+    "removed_volume_mm3": 0.6096701576586838,
+    "cut_box_intersection_volume_mm3": 0.6096323505882953,
+    "boolean_volume_tolerance_mm3": 0.0001,
+    "all_removed_geometry_within_extra_lead_cut_box": true,
+    "no_geometry_added": true,
+    "pcb_unchanged": true,
+    "library_derived_five_pin_adaptation_not_manufacturer_five_pin_cad": true
+  },
+  "manufacturer_jack_cad_not_bound": {
+    "source_page": "https://www.helloxkb.com/Home/Goods/goodsInfoxq/id/1628.html",
+    "download_url": "https://www.helloxkb.com/public/images/zip/PJ-3136-B.zip",
+    "sha256": "5aff5df7487f10c530dac94f60fd15fa1a2b85f8585d6b2cdb6b5755644d6a83",
+    "reason": "Six metal pins, incompatible with the selected five-pin footprint"
+  },
+  "simplified_generated_reference_models_removed": true
+}

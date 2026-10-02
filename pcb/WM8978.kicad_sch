@@ -9377,7 +9377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+		(property "Footprint" "WM8978-import-fps:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
 			(at 200.66 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -10691,7 +10691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
+		(property "Footprint" "WM8978-import-fps:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm"
 			(at 149.86 248.92 0)
 			(hide yes)
 			(show_name no)
