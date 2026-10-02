@@ -1,0 +1,51 @@
+{
+  "pcb_sha256": "6bab4104b9a4396aed0626787fb0733c4d03d5ecf8939795109a768cd1f0dbb1",
+  "footprints": 54,
+  "tracks": 252,
+  "vias": 285,
+  "via_sizes": {
+    "0.5/0.3 mm": 285
+  },
+  "pad_center_distances_mm": {
+    "U1.9 -> C99.1": 1.706,
+    "U1.9 -> C100.1": 3.108,
+    "U1.30 -> C97.1": 3.328,
+    "U1.29 -> C101.1": 2.493,
+    "Y1.4 -> C103.1": 6.455,
+    "Y2.4 -> C104.1": 1.796,
+    "U16.8 -> R75.1": 1.604,
+    "U16.7 -> R76.1": 1.54,
+    "U16.13 -> C90.1": 5.369,
+    "U16.14 -> C88.1": 2.747,
+    "U16.31 -> C106.1": 3.001,
+    "U16.26 -> C92.1": 5.258,
+    "U16.27 -> C83.1": 4.544
+  },
+  "physical_signal_lengths_mm": {
+    "/AUDIO_MCLK": 25.639,
+    "/AUDIO_OSC": 4.135,
+    "/MCU_12M": 2.382,
+    "/CODEC_BCLK": 1.736,
+    "/CODEC_LRCLK": 1.653,
+    "/USB_DP": 8.01,
+    "/USB_DM": 7.927
+  },
+  "ep_ground_via_count_inside_pad": 9,
+  "ep_ground_via_min_distance_mm": 0.1,
+  "visible_footprint_reference_count": 0,
+  "user_text_count": 0,
+  "drc": {
+    "errors": 402,
+    "warnings": 3,
+    "types": {
+      "annular_width": 199,
+      "hole_clearance": 4,
+      "via_diameter": 199,
+      "silk_edge_clearance": 2,
+      "silk_overlap": 1
+    },
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "sources_unchanged_during_review": true
+}

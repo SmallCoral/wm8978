@@ -1,0 +1,71 @@
+{
+  "board_mm": [
+    114.975,
+    59.707512,
+    39.55,
+    74.817488
+  ],
+  "footprints": 54,
+  "tracks": 251,
+  "vias": 255,
+  "via_sizes": {
+    "0.5/0.3 mm": 255
+  },
+  "physical_signal_lengths_mm": {
+    "/AUDIO_MCLK": 25.639,
+    "/AUDIO_OSC": 4.135,
+    "/MCU_12M": 2.382,
+    "/CODEC_BCLK": 11.7,
+    "/CODEC_LRCLK": 15.83,
+    "/USB_DP": 8.01,
+    "/USB_DM": 7.927
+  },
+  "pad_center_distances_mm": {
+    "U1.9 -> C99.1": 14.747,
+    "U1.9 -> C100.1": 10.284,
+    "U1.30 -> C97.1": 3.328,
+    "U1.29 -> C101.1": 2.493,
+    "Y1.4 -> C103.1": 6.455,
+    "Y2.4 -> C104.1": 1.796,
+    "U16.8 -> R75.1": 10.863,
+    "U16.7 -> R76.1": 12.791,
+    "U16.13 -> C90.1": 5.369,
+    "U16.14 -> C88.1": 2.747,
+    "U16.31 -> C106.1": 3.001,
+    "U16.26 -> C92.1": 5.258,
+    "U16.27 -> C83.1": 4.544
+  },
+  "visible_footprint_reference_count": 0,
+  "user_text_count": 0,
+  "ep_ground_via_min_distance_mm": 4.514,
+  "pcb_sha256": "3a621aa976b9e6d46cc95d3be0e166d6ae6cbf437a97736656044bea74c3209e",
+  "drc-saved": {
+    "violations": 406,
+    "errors": 404,
+    "warnings": 2,
+    "types": {
+      "annular_width": 199,
+      "clearance": 2,
+      "hole_clearance": 4,
+      "via_diameter": 199,
+      "silk_edge_clearance": 2
+    },
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "drc-refilled": {
+    "violations": 406,
+    "errors": 404,
+    "warnings": 2,
+    "types": {
+      "annular_width": 199,
+      "clearance": 2,
+      "hole_clearance": 4,
+      "via_diameter": 199,
+      "silk_edge_clearance": 2
+    },
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "all_255_vias_violate_current_dimensions": true
+}

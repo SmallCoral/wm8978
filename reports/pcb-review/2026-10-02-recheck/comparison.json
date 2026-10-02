@@ -1,0 +1,66 @@
+{
+  "baseline_sha256": "3a621aa976b9e6d46cc95d3be0e166d6ae6cbf437a97736656044bea74c3209e",
+  "current_sha256": "62d195dd3c062353bcaa066ac836e092f2f920b8582b82d5aec6441b4f7d257a",
+  "moved_footprints": [
+    {
+      "reference": "C100",
+      "before_mm": [
+        129.25,
+        85.2
+      ],
+      "after_mm": [
+        139.5,
+        88.75
+      ]
+    }
+  ],
+  "removed_vias": [
+    {
+      "position": [
+        139.5,
+        87.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        133.0,
+        89.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    }
+  ],
+  "added_vias": [],
+  "C100_to_U1_9_before_mm": 10.284,
+  "C100_to_U1_9_after_mm": 1.977,
+  "drc_before": {
+    "violations": 406,
+    "errors": 404,
+    "warnings": 2,
+    "types": {
+      "annular_width": 199,
+      "clearance": 2,
+      "hole_clearance": 4,
+      "via_diameter": 199,
+      "silk_edge_clearance": 2
+    },
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "drc_after": {
+    "errors": 402,
+    "warnings": 2,
+    "types": {
+      "annular_width": 199,
+      "hole_clearance": 4,
+      "via_diameter": 199,
+      "silk_edge_clearance": 2
+    },
+    "unconnected": 0,
+    "schematic_parity": 0
+  }
+}

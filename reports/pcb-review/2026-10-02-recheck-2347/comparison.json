@@ -1,0 +1,506 @@
+{
+  "baseline_sha256": "62d195dd3c062353bcaa066ac836e092f2f920b8582b82d5aec6441b4f7d257a",
+  "current_sha256": "6bab4104b9a4396aed0626787fb0733c4d03d5ecf8939795109a768cd1f0dbb1",
+  "moved_footprints": [
+    {
+      "reference": "R76",
+      "before_mm": [
+        142.25,
+        82.7
+      ],
+      "after_mm": [
+        142.25,
+        95.5
+      ]
+    },
+    {
+      "reference": "C80",
+      "before_mm": [
+        141.75,
+        96.2
+      ],
+      "after_mm": [
+        141.504501,
+        98.1
+      ]
+    },
+    {
+      "reference": "R75",
+      "before_mm": [
+        142.25,
+        84.2
+      ],
+      "after_mm": [
+        142.25,
+        94.0
+      ]
+    },
+    {
+      "reference": "C99",
+      "before_mm": [
+        124.75,
+        85.2
+      ],
+      "after_mm": [
+        141.0,
+        87.5
+      ]
+    },
+    {
+      "reference": "C100",
+      "before_mm": [
+        139.5,
+        88.75
+      ],
+      "after_mm": [
+        141.0,
+        89.0
+      ]
+    }
+  ],
+  "removed_vias": [
+    {
+      "position": [
+        144.0,
+        89.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        143.5,
+        95.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        152.75,
+        62.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        142.0,
+        89.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        130.75,
+        77.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        152.75,
+        71.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        145.0,
+        94.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    }
+  ],
+  "added_vias": [
+    {
+      "position": [
+        132.75,
+        127.05
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        136.25,
+        95.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        123.5,
+        82.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        150.25,
+        72.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        138.75,
+        95.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        146.0,
+        66.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        130.5,
+        68.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        134.5,
+        73.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        135.0,
+        68.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        131.0,
+        76.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        135.5,
+        127.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        138.75,
+        96.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        136.5,
+        121.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        132.75,
+        68.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        129.5,
+        119.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        147.75,
+        68.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        138.75,
+        89.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        144.25,
+        99.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        121.25,
+        84.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        147.75,
+        70.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        144.0,
+        89.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        139.0,
+        87.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        132.5,
+        121.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        131.0,
+        78.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        136.25,
+        97.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        138.75,
+        97.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        146.0,
+        68.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        132.75,
+        69.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        137.5,
+        96.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        129.5,
+        121.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        147.75,
+        72.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        137.5,
+        95.0
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        147.75,
+        66.75
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        152.75,
+        72.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        136.25,
+        96.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        144.0,
+        92.25
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        152.75,
+        62.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        132.75,
+        71.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    },
+    {
+      "position": [
+        137.5,
+        97.5
+      ],
+      "net": "GND",
+      "diameter": 0.5,
+      "drill": 0.3
+    }
+  ],
+  "C100_to_U1_9_before_mm": 1.977,
+  "C100_to_U1_9_after_mm": 3.108,
+  "drc_before": {
+    "errors": 402,
+    "warnings": 2,
+    "types": {
+      "annular_width": 199,
+      "hole_clearance": 4,
+      "via_diameter": 199,
+      "silk_edge_clearance": 2
+    },
+    "unconnected": 0,
+    "schematic_parity": 0
+  },
+  "drc_after": {
+    "errors": 402,
+    "warnings": 3,
+    "types": {
+      "annular_width": 199,
+      "hole_clearance": 4,
+      "via_diameter": 199,
+      "silk_edge_clearance": 2,
+      "silk_overlap": 1
+    },
+    "unconnected": 0,
+    "schematic_parity": 0
+  }
+}
