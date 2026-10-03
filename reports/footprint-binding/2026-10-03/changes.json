@@ -27,7 +27,7 @@
     }
   ],
   "association_patch_only_pcb_sha256": "4708efc339e64d924ed92380b2c5f159ca4c224e79a9149a89890b237eccfcc5",
-  "pcb_sha256_after": "474b74b32abed8816334f2dd972b3ac479624d02691e1b46f17e03246c343002",
+  "pcb_sha256_after": "5fb48f70224364015cf48c9607fd8780e6c241d2294cacb238a3a9f37e3e6dfc",
   "schematic_sha256_before": "cd944a4fc81085c140cde708b9e082f911263f64c10db1757d9ac354f2b7d255",
   "schematic_sha256_after": "ec997bf1890f5b327d74b67f1542f2626916010a5ec2dfd338209763c5ab9a2f",
   "association_patch_only_schematic_link_metadata_changed": true,

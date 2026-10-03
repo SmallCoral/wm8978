@@ -1,13 +1,15 @@
 {
-  "pcb_changes_since_latest_user_save_limited_to_four_model_assignments": true,
+  "latest_user_save_preserved_except_allowed_model_metadata": true,
   "schematic_changes_limited_to_two_oscillator_footprint_library_namespaces": true,
   "all_native_pcb_geometry_unchanged_from_latest_user_save": true,
-  "layout_baseline_local_kicad_history_commit": "178384502be621340c8b53da91be965ad95384ec",
-  "layout_baseline_local_kicad_save_time": "2026-10-03T01:32:05+08:00",
-  "layout_baseline_file_sha256": "a2a1687c3e9854a4cc6d5aee63e620c715c130ec75af976e12d6c82222cb2c86",
+  "layout_baseline_local_kicad_history_commit": "3530e5bf584c00aeff92c27b3be9be7ed7e63d87",
+  "layout_baseline_local_kicad_save_time": "2026-10-03T02:13:00+08:00",
+  "layout_baseline_file_sha256": "22a087b686219d7cd738cb35e577c1cc596df6ecb409a82f24d763014e41da25",
   "preexisting_layout_changes_since_prior_github_commit_preserved": [
     "C97 X:127.76->129.00 mm",
     "C98 X:126.25->127.49 mm",
+    "R71 X:123.25->124.75 mm",
+    "R71 +3V3 and SWCLK tracks",
     "zone filled polygons"
   ],
   "all_net_names_and_pin_connections_unchanged": true,
@@ -16,7 +18,9 @@
   "native_board_step_export_successful": true,
   "native_3d_render_successful_and_visually_reviewed": true,
   "drc_type_and_severity_counts_unchanged": true,
-  "pcb_sha256": "474b74b32abed8816334f2dd972b3ac479624d02691e1b46f17e03246c343002",
+  "pcb_sha256": "5fb48f70224364015cf48c9607fd8780e6c241d2294cacb238a3a9f37e3e6dfc",
   "schematic_sha256": "ec997bf1890f5b327d74b67f1542f2626916010a5ec2dfd338209763c5ab9a2f",
-  "step_export_bytes": 5566330
+  "pcb_sha256_git_text_lf": "22a087b686219d7cd738cb35e577c1cc596df6ecb409a82f24d763014e41da25",
+  "schematic_sha256_git_text_lf": "a5478145dd336e2cbca1a52b596753ddab690b90cda36ebf1a4139505794c1e7",
+  "step_export_bytes": 5565823
 }

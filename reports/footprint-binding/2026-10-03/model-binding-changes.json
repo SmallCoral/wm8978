@@ -80,6 +80,6 @@
   ],
   "oscillator_footprint_library_before": "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
   "oscillator_footprint_library_after": "WM8978-import-fps:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm",
-  "pcb_sha256": "474b74b32abed8816334f2dd972b3ac479624d02691e1b46f17e03246c343002",
+  "pcb_sha256": "5fb48f70224364015cf48c9607fd8780e6c241d2294cacb238a3a9f37e3e6dfc",
   "schematic_sha256": "ec997bf1890f5b327d74b67f1542f2626916010a5ec2dfd338209763c5ab9a2f"
 }
