@@ -2,7 +2,7 @@
 
 基于 **ATSAMD21E18A** 和 **WM8978** 的 USB 音频硬件项目，目标支持 **48 kHz / 16-bit 全双工音频**，提供耳机播放、麦克风采集和扬声器输出。
 
-<img src="reports/footprint-binding/2026-10-03/pcb-3d.png" alt="PCB 3D 预览" width="420" />
+![PCB 3D 预览](./docs/images/pcb-3d-preview.png)
 
 ## 硬件特点
 
